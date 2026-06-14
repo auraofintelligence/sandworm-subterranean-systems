@@ -10,7 +10,7 @@ SITE_TITLE = "Sandworm Subterranean Systems"
 BASE_URL = "https://auraofintelligence.github.io/sandworm-subterranean-systems/"
 DESCRIPTION = (
     "A self-sovereign public workbench for exploring why to dig carefully: maker-space starts, "
-    "modern ferry-gateway data, wildlife-safe tunnels, future tunnel spoil as a resource, artificial reefs, "
+    "modern ferry-gateway data, autonomous transport corridors, future tunnel spoil as a resource, artificial reefs, "
     "sand batteries, community wealth and film-ready story trails."
 )
 
@@ -28,7 +28,7 @@ PAGES = [
         "label": "Why dig?",
         "href": "start.html",
         "title": "Why Dig?",
-        "description": "What reasons might make careful digging worth exploring: fewer animal deaths, safer movement, erosion care, future spoil as resource, reef habitat, power storage and community assets?",
+        "description": "What reasons might make careful digging worth exploring: fewer road strikes, less road damage, 24/7 access, erosion care, future spoil as resource, reef habitat, power storage and community assets?",
     },
     {
         "id": "makerspace",
@@ -183,6 +183,11 @@ SOURCE_DOCS = [
         "use": "Provides the practical start: a modern ferry gateway, official-source trail, public photos, data ladder and simulation workflow.",
     },
     {
+        "title": "Wildlife Rescue Minjerribah Road-Hit Statistic",
+        "file": "community-supplied 2025 statistic",
+        "use": "Adds the transport-safety pressure: 250+ reported kangaroo and wallaby road hits in 2025, to be kept source-aware and open to verification.",
+    },
+    {
         "title": "P4A C-Hour And Civic Ledger Pattern",
         "file": "p4a_xyz LOCALISE_WITH_AN_AGENT.md and civic-ledger.html",
         "use": "Clarifies C-Hours as draft public-good receipts with consent, law, verification, anti-fraud checks and human governance.",
@@ -229,7 +234,7 @@ BUILDERS = [
         "boundary": "The trail is an invitation, not a test. People can stay, leave, disagree, or take only the part that helps.",
         "next_step": "Name one small practical action that would make the idea easier to understand.",
         "fields": [
-            ("doorway", "Which doorway are you using?", "Ferry lab, maker space, wildlife tunnels, spoil loop, reefs, power, wealth, film, sources, or another doorway."),
+            ("doorway", "Which doorway are you using?", "Ferry lab, maker space, autonomous transport corridors, spoil loop, reefs, power, wealth, film, sources, or another doorway."),
             ("question", "What question are you carrying?", "Write it as a real question, not a conclusion."),
             ("useful_output", "What would be useful to leave with?", "A note, map, source list, experiment card, film prompt, workshop plan, or handoff."),
         ],
@@ -270,7 +275,7 @@ BUILDERS = [
         "boundary": "Speculative engineering belongs behind review gates. Do not treat a concept card as permission to dig, test, mine or build.",
         "next_step": "Find the smallest harmless test that improves understanding without risking people, place or trust.",
         "fields": [
-            ("idea", "What is the experiment idea?", "Wet sand stabilisation, tunnel model, wildlife underpass, silica block, material passport, sensor loop, or slurry simulation."),
+            ("idea", "What is the experiment idea?", "Wet sand stabilisation, tunnel model, autonomous transport corridor, silica block, material passport, sensor loop, or slurry simulation."),
             ("small_test", "What is the smallest safe test?", "A tabletop model, literature review, digital simulation, interview, material sample, or workshop exercise."),
             ("unknowns", "What is unknown or risky?", "Geology, water, ecology, law, culture, energy, cost, safety, waste, or evidence quality."),
             ("stop_rule", "When should the idea stop or slow down?", "Name a clear condition that means review comes before momentum."),
@@ -286,7 +291,7 @@ BUILDERS = [
         "fields": [
             ("spoil_source", "Where would the sand or spoil come from?", "Tunnel model, road work, terminal work, erosion response, existing stockpile, workshop sample, or concept only."),
             ("use_path", "What might it become?", "Geopolymer block, oyster-crete module, reef unit, dune stabiliser, sand battery mass, tunnel lining, or test sample."),
-            ("problem", "Which existing problem does this help?", "Animal road deaths, erosion, transport pressure, material imports, habitat loss, storage, or community asset creation."),
+            ("problem", "Which existing problem does this help?", "Wildlife road hits, road damage, disconnected towns, after-hours access, erosion, transport pressure, material imports, habitat loss, storage, or community asset creation."),
             ("review", "What has to be checked?", "Material safety, coastal process, marine life, cultural authority, engineering, maintenance, lifecycle, or legal permission."),
         ],
     },
@@ -437,7 +442,7 @@ def home_body() -> str:
     <div class="hero-copy">
       <p class="section-label hero-label">Exploratory public workbench</p>
       <h1>Sandworm Subterranean Systems</h1>
-      <p class="hero-lede">Could careful digging help solve existing problems above ground: animal road deaths, erosion, transport pressure, imported blocks, fragile dunes, energy storage and the lack of patient community assets, while treating any tunnel spoil it creates as a resource?</p>
+      <p class="hero-lede">Could careful digging help solve existing problems above ground: wildlife road hits, road damage from heavy buses, trucks and rain, disconnected towns, after-hours transport gaps, erosion, energy storage and patient community assets, while treating any tunnel spoil it creates as a resource?</p>
       <div class="hero-actions">
         <a class="button primary" href="start.html">Follow the reasons</a>
         <a class="button secondary" href="builders/index.html">Open builders</a>
@@ -454,9 +459,9 @@ def home_body() -> str:
       <p class="lede">A tunnel project eventually asks where the spoil goes. Sandworm asks which local problems that material might help with if each step stays tested, reviewed and open to correction.</p>
     </div>
 """ + card_grid([
-        {"label": "Question", "title": "Could roads be crossed underneath?", "text": "Where might wildlife underpasses, service tunnels or safer movement corridors reduce animal road deaths?"},
+        {"label": "Question", "title": "Could major transport arteries move below the fragile roads?", "text": "What if autonomous on-call vehicles ran 24/7/365 between towns, ferry gateways and service nodes, reducing pressure on surface roads and wildlife?"},
         {"label": "Question", "title": "What is erosion already asking?", "text": "If tunnelling creates spoil, could tested reef modules, dune support, oyster-crete or seagrass lattices help coastal care?"},
-        {"label": "Question", "title": "What could be mapped first?", "text": "How might modern ferry-gateway movement, buses, roads and service paths be simulated before anyone argues about digging?"},
+        {"label": "Question", "title": "What does the transport data already say?", "text": "How do ferry arrivals, tourist buses, trucks, rain damage, road repairs, town separation and after-hours gaps change the argument?"},
         {"label": "Question", "title": "Could local material become blocks?", "text": "Which sand, binders, shells, glass or waste streams might become blocks only after material testing and lifecycle review?"},
         {"label": "Question", "title": "Could quiet power store as heat?", "text": "Which reef-anchor or wave-pressure ideas might feed sand batteries without ignoring marine life, noise or reversibility?"},
         {"label": "Question", "title": "How could assets stay local?", "text": "Could energy, materials and learning support a patient wealth fund while C-Hours recognise verified public-good work?"},
@@ -468,7 +473,7 @@ def home_body() -> str:
     <div>
       <p class="section-label">Where to begin</p>
       <h2>Start at the modern ferry gateway, not in a fantasy tunnel.</h2>
-      <p class="lede">Dunwich / Gumpi is a practical first node because ferries, buses, roads, visitors, freight, waiting areas and public infrastructure already meet there. A maker-space and data lab can help people inspect the system before the story grows teeth.</p>
+      <p class="lede">Dunwich / Gumpi is a practical first node because ferries, buses, roads, visitors, freight, waiting areas and public infrastructure already meet there. A maker-space and data lab can help people inspect the transport system before the story grows teeth.</p>
     </div>
     <div class="quote-panel">What can we map, test, repair, make or film now that would still be useful even if the largest Sandworm never gets built?</div>
   </div>
@@ -500,12 +505,12 @@ def start_body() -> str:
       <p class="lede">Sandworm becomes worth exploring only if each layer solves something people already care about.</p>
     </div>
 """ + pathway([
-        ("Could the civic lab begin at Gumpi?", "The ferry gateway may be a useful maker-space and open-data start because the transport system is already visible there."),
-        ("Where do animals need safer crossings?", "Which underpasses, culverts or service tunnels might reduce road deaths without making new harms?"),
+        ("Could Gumpi model the first autonomous loop?", "The ferry gateway may be a useful maker-space and open-data start because the transport system is already visible there."),
+        ("What are wildlife road hits telling us?", "If local rescue statistics are showing 250+ kangaroo and wallaby road hits in 2025, what transport redesign questions deserve daylight?"),
+        ("What is heavy traffic doing to the roads?", "How do tourist buses, trucks, rain damage and constant repairs change the case for moving major arteries off the fragile surface?"),
+        ("Who is stranded when public transport sleeps?", "What happens to disconnected towns, older residents and workers when public transport is thin before 6am and after 8pm?"),
         ("If spoil appears, where could it go?", "What source, test, destination, risk check and possible second life would make a material stream trustworthy?"),
-        ("Could coastal help be prototyped gently?", "Which reef, dune, oyster-crete or seagrass ideas belong behind ecology and cultural review before they become proposals?"),
-        ("Could power be stored in sand?", "Which clean-power ideas become more useful if they are quiet, reliable and locally stored?"),
-        ("How should the story stay honest?", "Could film and documentary invite support while still showing doubts, unknowns and reviewer voices?"),
+        ("How could the story stay honest?", "Could film and documentary invite support while still showing doubts, unknowns and reviewer voices?"),
     ]) + """
     <div class="callout">
       <div><h3>Leave with a Markdown handoff.</h3><p>A clean `.md` draft is a small bridge between high-level thought and practical next work.</p></div>
@@ -523,7 +528,7 @@ def makerspace_body() -> str:
     <div>
       <p class="section-label">Grounded start</p>
       <h2>What can a modern ferry gateway teach before anyone talks about tunnels?</h2>
-      <p class="lede">Dunwich / Gumpi is already a living transport system: vehicle ferries, passenger services, buses, turnarounds, freight, visitors and daily local movement. Could that make it a strong first place for open data, public evidence, maker-space tools and tunnel questions?</p>
+      <p class="lede">Dunwich / Gumpi is already a living transport system: vehicle ferries, passenger services, buses, turnarounds, freight, visitors and daily local movement. Could that make it a strong first place to model autonomous on-call corridors, public evidence, maker-space tools and tunnel questions?</p>
     </div>
     <div class="quote-panel">A good first lab helps people understand the place before it asks them to believe a plan.</div>
   </div>
@@ -534,7 +539,7 @@ def makerspace_body() -> str:
 """ + card_grid([
         {"label": "Question", "title": "What evidence is already public?", "text": "Which official sources, public photos, 3D scans or plain notes could help people see the gateway clearly?"},
         {"label": "Question", "title": "What samples are safe to test?", "text": "Which sand, shells, recycled glass, binders or block forms might be explored at bench scale before claims harden?"},
-        {"label": "Question", "title": "How does movement really work?", "text": "What do ferries, buses, walking, service vehicles, emergency paths and possible tunnel links look like together?"},
+        {"label": "Question", "title": "How does movement really work?", "text": "What do ferries, buses, freight, school runs, emergency paths, workers, visitors and possible autonomous tunnel links look like together?"},
         {"label": "Question", "title": "Who wants tool confidence?", "text": "How might locals, students, makers and documentarians learn scanning, forms, safety and public-source work at their own pace?"},
         {"label": "Question", "title": "What should be filmed first?", "text": "Which experiments, doubts and source trails would help non-technical people inspect the thinking?"},
         {"label": "Question", "title": "Whose permission matters?", "text": "Which public infrastructure, cultural authority, engineering and safety questions need review before momentum?"},
@@ -577,7 +582,7 @@ def digital_twin_body() -> str:
         "Which layers are official public sources, and which are community observations?",
         "Which map layers need permission, context or cultural review?",
         "Which details should not be collected at all?",
-        "Where might an underpass, tunnel or service path reduce harm instead of adding it?",
+        "Where might an autonomous corridor, tunnel or service path reduce harm instead of adding it?",
         "What correction path lets people improve the map later?",
     ]) + """
     <div class="callout">
@@ -694,7 +699,7 @@ def culture_body() -> str:
 <section class="section soft-band">
   <div class="section-inner">
 """ + card_grid([
-        {"label": "Question", "title": "What would a future story reveal?", "text": "Could tunnels, reefs, wildlife crossings, sand batteries and public ledgers appear as lived choices rather than slogans?"},
+        {"label": "Question", "title": "What would a future story reveal?", "text": "Could autonomous corridors, reefs, fewer road hits, sand batteries and public ledgers appear as lived choices rather than slogans?"},
         {"label": "Question", "title": "What should the camera follow?", "text": "Which source trails, makers, sceptics, reviewers, failed tests and careful improvements would make the first attempts honest?"},
         {"label": "Question", "title": "How do people enter freely?", "text": "Could screenings, builder forms and discussion trails let people explore without being told what to think?"},
         {"label": "Builder", "title": "Film And Documentary Trail", "text": "Could one Sandworm idea become a story-planning note without taking over meaning?", "href": "builders/film-documentary-trail.html", "action": "Open builder"},

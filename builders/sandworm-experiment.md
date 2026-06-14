@@ -8,7 +8,7 @@ Status: Draft for human review
 
 ### What is the experiment idea?
 
-Prompt: Wet sand stabilisation, tunnel model, wildlife underpass, silica block, material passport, sensor loop, or slurry simulation.
+Prompt: Wet sand stabilisation, tunnel model, autonomous transport corridor, silica block, material passport, sensor loop, or slurry simulation.
 
 _Not answered yet._
 
