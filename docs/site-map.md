@@ -12,6 +12,7 @@
 - [Markdown Builders](../builders/index.html) - Browser-only forms that turn questions, trails and project notes into clean Markdown drafts.
 - [Boundaries Keep The Work Human](../boundaries.html) - Consent, cultural authority, ecological safety, public claims, engineering review and data dignity for the Sandworm trail.
 - [Source Trail](../sources.html) - The documents and connected repositories that informed this first Sandworm public draft.
+- [Licence And Reuse](../licence.html) - How people can read, question, reuse, fork, adapt and generate Markdown from Sandworm while keeping provenance, safety and authority clear.
 - [Site Map](../site-map.html) - All public pages, builder pages, Markdown templates and source bridges.
 
 ## Builders
@@ -32,6 +33,7 @@
 - [Straddie Digital Twin Builders](https://auraofintelligence.github.io/straddie-digital-twin-builders/) - [Straddie Digital Twin Builders repo](https://github.com/auraofintelligence/straddie-digital-twin-builders)
 - [P4A / Purple Party For Australia](https://auraofintelligence.github.io/p4a_xyz/) - [P4A / Purple Party For Australia repo](https://github.com/auraofintelligence/p4a_xyz)
 - [Stradbroke Grants Lab](https://auraofintelligence.github.io/stradbroke-grants-lab/) - [Stradbroke Grants Lab repo](https://github.com/auraofintelligence/stradbroke-grants-lab)
+- [How To Use Markdown With AI](https://auraofintelligence.github.io/how-to-use-md-with-ai/) - [How To Use Markdown With AI repo](https://github.com/auraofintelligence/how-to-use-md-with-ai)
 - [Mineral Moonshots](https://auraofintelligence.github.io/mineral-moonshots/) - [Mineral Moonshots repo](https://github.com/auraofintelligence/mineral-moonshots)
 - [Civilisation of Sand](https://auraofintelligence.github.io/civilisation-of-sand/) - [Civilisation of Sand repo](https://github.com/auraofintelligence/civilisation-of-sand)
 - [Quandamooka Film Festival](https://auraofintelligence.github.io/quandamooka-film-festival/) - [Quandamooka Film Festival repo](https://github.com/auraofintelligence/quandamooka-film-festival)

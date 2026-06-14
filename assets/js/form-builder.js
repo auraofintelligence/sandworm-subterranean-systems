@@ -73,6 +73,33 @@
     lines.push("");
     lines.push(definition.next_step);
     lines.push("");
+
+    const starters = definition.ai_prompt_starters || [];
+    if (starters.length || definition.repo_copy) {
+      lines.push("## Ways to use this Markdown with AI");
+      lines.push("");
+      lines.push("Before sharing: inspect the file, remove private details, keep sources visible and decide whether the output is support, critique, learning or review.");
+      lines.push("");
+    }
+
+    starters.forEach((starter) => {
+      lines.push(`### ${starter.title}`);
+      lines.push("");
+      lines.push(`Prompt: ${starter.text}`);
+      lines.push("");
+    });
+
+    if (definition.repo_copy) {
+      lines.push("## Public repo copy or local version");
+      lines.push("");
+      lines.push(definition.repo_copy.text);
+      lines.push("");
+      lines.push(`Original repo: ${definition.repo_copy.href}`);
+      lines.push("");
+      lines.push("Reuse note: see LICENCE.md before presenting a fork, public copy or AI-generated version as official.");
+      lines.push("");
+    }
+
     return lines.join("\n");
   }
 

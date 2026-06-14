@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SITE_TITLE = "Sandworm Subterranean Systems"
 BASE_URL = "https://auraofintelligence.github.io/sandworm-subterranean-systems/"
-ASSET_VERSION = "20260614-hero-left-fast-nav"
+ASSET_VERSION = "20260614-builder-ai-licence"
 DESCRIPTION = (
     "A self-sovereign public workbench for exploring why to dig carefully: maker-space starts, "
     "modern ferry-gateway data, autonomous transport corridors, future tunnel spoil as a resource, artificial reefs, "
@@ -95,6 +95,13 @@ PAGES = [
         "description": "The documents and connected repositories that informed this first Sandworm public draft.",
     },
     {
+        "id": "licence",
+        "label": "Licence",
+        "href": "licence.html",
+        "title": "Licence And Reuse",
+        "description": "How people can read, question, reuse, fork, adapt and generate Markdown from Sandworm while keeping provenance, safety and authority clear.",
+    },
+    {
         "id": "site-map",
         "label": "Site map",
         "href": "site-map.html",
@@ -116,6 +123,7 @@ HERO_IMAGES = {
     "builders": "assets/img/heroes/builders.webp",
     "boundaries": "assets/img/heroes/boundaries.webp",
     "sources": "assets/img/heroes/sources.webp",
+    "licence": "assets/img/heroes/sources.webp",
     "site-map": "assets/img/heroes/sources.webp",
 }
 
@@ -150,6 +158,12 @@ COMPANION_LINKS = [
         "site": "https://auraofintelligence.github.io/stradbroke-grants-lab/",
         "repo": "https://github.com/auraofintelligence/stradbroke-grants-lab",
         "summary": "The funding workbench for grant watchlists, windows, applicant profiles, grant-readiness Markdown, milestones and acquittal evidence.",
+    },
+    {
+        "title": "How To Use Markdown With AI",
+        "site": "https://auraofintelligence.github.io/how-to-use-md-with-ai/",
+        "repo": "https://github.com/auraofintelligence/how-to-use-md-with-ai",
+        "summary": "A plain-English guide for turning form answers into portable `.md` context files for AI tools, with privacy, source and review boundaries visible.",
     },
     {
         "title": "Mineral Moonshots",
@@ -205,6 +219,16 @@ SOURCE_DOCS = [
         "use": "Adds the practical funding layer: grant watchlists, grant windows, applicant and project matching, readiness checklists, milestone reports and acquittal evidence.",
     },
     {
+        "title": "How To Use Markdown With AI",
+        "file": "how-to-use-md-with-ai repo",
+        "use": "Adds the builder lesson pattern: purpose, context, boundaries, specific AI request, source links, review notes and privacy checks before sharing a `.md` file.",
+    },
+    {
+        "title": "Strange But True Public Licence",
+        "file": "strange-but-true LICENCE.md",
+        "use": "Provides the local licence pattern: personal/generated outputs stay with the person, code can be studied and adapted, and story, brand, provenance and endorsement boundaries stay clear.",
+    },
+    {
         "title": "Mineral Moonshots",
         "file": "mineral-moonshots repo",
         "use": "Adds mineral-sands language, sand batteries, material transition anchors, reef ideas and local capability links.",
@@ -235,6 +259,43 @@ SOURCE_DOCS = [
         "use": "Adds scientific AI, materials simulation, sand batteries and federated intelligence as concept inputs.",
     },
 ]
+
+
+AI_PROMPT_STARTERS = [
+    {
+        "title": "Support letter",
+        "text": "Using this Markdown as context, draft a respectful support letter in plain Australian English. Keep claims source-aware and list facts that still need checking.",
+    },
+    {
+        "title": "Expression of interest",
+        "text": "Using this Markdown as context, draft a short expression of interest from a community member, maker, funder, researcher or reviewer. Include possible next steps and boundaries.",
+    },
+    {
+        "title": "Reasons to slow or stop",
+        "text": "Using this Markdown as context, write a well-structured reasons-against note explaining which parts of the plan should not go ahead, should slow down, or need stronger evidence first.",
+    },
+    {
+        "title": "Lesson or workshop direction",
+        "text": "Using this Markdown as context, create a lesson direction, workshop outline or discussion guide that helps people explore the idea without being told what to think.",
+    },
+    {
+        "title": "Evidence and risk check",
+        "text": "Using this Markdown as context, list assumptions, missing sources, safety questions, cultural or ecological review needs, and the strongest counterarguments.",
+    },
+]
+
+
+PUBLIC_REPO_URL = "https://github.com/auraofintelligence/sandworm-subterranean-systems"
+MARKDOWN_AI_GUIDE = {
+    "title": "How To Use Markdown With AI",
+    "href": "https://auraofintelligence.github.io/how-to-use-md-with-ai/",
+}
+REPO_COPY_GUIDE = {
+    "title": "Could this become a local version?",
+    "text": "If a working site would help, copy or fork the public repo, rename the version honestly, keep attribution and licence notes visible, then adapt the pages and builders for the place, group or review question you are exploring.",
+    "href": PUBLIC_REPO_URL,
+    "action": "Open repo",
+}
 
 
 BUILDERS = [
@@ -412,6 +473,34 @@ def card_grid(cards: list[dict[str, str]], class_name: str = "card-grid") -> str
             + f'</{tag}>'
         )
     return f'<div class="{class_name}">{"".join(items)}</div>'
+
+
+def ai_prompt_cards() -> list[dict[str, str]]:
+    cards = [
+        {"label": "AI prompt", "title": starter["title"], "text": starter["text"]}
+        for starter in AI_PROMPT_STARTERS
+    ]
+    cards.append({"label": "Public repo", **REPO_COPY_GUIDE})
+    return cards
+
+
+def ai_handoff_section() -> str:
+    return """
+<section class="section soft-band">
+  <div class="section-inner">
+    <div class="section-heading">
+      <p class="section-label">Use the draft</p>
+      <h2>What could this `.md` help an explorer ask next?</h2>
+      <p class="lede">A builder output can be copied, downloaded, inspected and then taken to any AI tool. It can support a letter, an expression of interest, a workshop direction, or a strong reasons-against note.</p>
+    </div>
+""" + card_grid(ai_prompt_cards()) + f"""
+    <div class="callout">
+      <div><h3>Want the plain guide?</h3><p>Open the Markdown-with-AI guide for a simple pattern: purpose, context, boundaries, request, sources and review.</p></div>
+      <a class="button primary" href="{e(MARKDOWN_AI_GUIDE["href"])}">Open guide</a>
+    </div>
+  </div>
+</section>
+"""
 
 
 def repo_grid() -> str:
@@ -802,7 +891,7 @@ def builders_index_body() -> str:
     </div>
   </div>
 </section>
-"""
+""" + ai_handoff_section()
 
 
 def builder_body(builder: dict) -> str:
@@ -823,6 +912,9 @@ def builder_body(builder: dict) -> str:
         "filename": builder["filename"],
         "boundary": builder["boundary"],
         "next_step": builder["next_step"],
+        "ai_prompt_starters": AI_PROMPT_STARTERS,
+        "markdown_ai_guide": MARKDOWN_AI_GUIDE,
+        "repo_copy": REPO_COPY_GUIDE,
         "fields": [
             {"name": name, "label": label, "hint": hint}
             for name, label, hint in builder["fields"]
@@ -854,6 +946,46 @@ def builder_body(builder: dict) -> str:
 </section>
 <script id="builder-definition" type="application/json">{definition_json}</script>
 <script src="../assets/js/form-builder.js"></script>
+""" + ai_handoff_section()
+
+
+def licence_body() -> str:
+    return page_hero(by_id("licence")) + """
+<section class="section">
+  <div class="section-inner">
+    <div class="section-heading">
+      <p class="section-label">Public infrastructure</p>
+      <h2>What reuse helps the work stay useful and honest?</h2>
+      <p class="lede">Sandworm is shared as a public-interest workbench. People can read it, question it, use the builders, make their own Markdown notes, fork the repo for learning or local adaptation, and keep the source trail visible.</p>
+    </div>
+""" + card_grid([
+        {"label": "Builder output", "title": "Who owns a generated `.md`?", "text": "The person who writes the answers controls their downloaded Markdown. The site does not need to host it, approve it or claim it."},
+        {"label": "Code", "title": "Could the public repo be copied?", "text": "Yes, for public-interest, educational, community, artistic, regenerative or review purposes, if attribution, licence notes and honest provenance stay visible."},
+        {"label": "Local version", "title": "What makes a fork honest?", "text": "A local version should rename itself clearly, avoid implying endorsement, keep links back to the original, and show what has changed."},
+        {"label": "Story material", "title": "What stays protected?", "text": "The Sandworm name, writings, images, narrative materials, brand assets and public story world are not offered as raw material to sell, mislabel or repackage."},
+        {"label": "AI use", "title": "Can AI tools use the Markdown?", "text": "Yes, as context for drafts, letters, critique, lessons or expressions of interest, while keeping facts, sources, privacy, cultural authority and review status visible."},
+        {"label": "Reality check", "title": "What is not granted?", "text": "No page, builder, fork or AI output is engineering approval, legal advice, cultural permission, environmental approval, financial advice or official endorsement."},
+    ]) + """
+  </div>
+</section>
+<section class="section soft-band">
+  <div class="section-inner split">
+    <div>
+      <p class="section-label">Plain path</p>
+      <h2>Could someone make their own version without muddying the source?</h2>
+      <p class="lede">A respectful fork can be simple: copy the public repo, keep the original licence and source links, rename the project for the new place or group, change the pages and builders, then add notes showing what is draft, sourced, reviewed or still uncertain.</p>
+    </div>
+    <div class="quote-panel">Good reuse leaves a trail. People can see what came from Sandworm, what changed, and who now carries the local responsibility.</div>
+  </div>
+</section>
+<section class="section">
+  <div class="section-inner">
+    <div class="callout">
+      <div><h3>Read the full local licence.</h3><p>The repo-level `LICENCE.md` sets the practical boundaries for builders, code, AI drafts, public forks, creative works and liability.</p></div>
+      <a class="button primary" href="LICENCE.md">Open LICENCE.md</a>
+    </div>
+  </div>
+</section>
 """
 
 
@@ -910,6 +1042,7 @@ BODY_RENDERERS = {
     "builders": builders_index_body,
     "boundaries": boundaries_body,
     "sources": sources_body,
+    "licence": licence_body,
     "site-map": site_map_body,
 }
 
@@ -988,6 +1121,24 @@ def builder_template(builder: dict) -> str:
     for _name, label, hint in builder["fields"]:
         lines.extend([f"### {label}", "", f"Prompt: {hint}", "", "_Not answered yet._", ""])
     lines.extend(["## Boundaries", "", builder["boundary"], "", "## Next small step", "", builder["next_step"], ""])
+    lines.extend([
+        "## Ways to use this Markdown with AI",
+        "",
+        "Before sharing: inspect the file, remove private details, keep sources visible and decide whether the output is support, critique, learning or review.",
+        "",
+    ])
+    for starter in AI_PROMPT_STARTERS:
+        lines.extend([f"### {starter['title']}", "", f"Prompt: {starter['text']}", ""])
+    lines.extend([
+        "## Public repo copy or local version",
+        "",
+        REPO_COPY_GUIDE["text"],
+        "",
+        f"Original repo: {PUBLIC_REPO_URL}",
+        "",
+        "Reuse note: see LICENCE.md before presenting a fork, public copy or AI-generated version as official.",
+        "",
+    ])
     return "\n".join(lines)
 
 
@@ -1012,7 +1163,7 @@ def write_site_data() -> None:
         },
         {
             "label": "Sources",
-            "items": [by_page_id[item_id] for item_id in ["boundaries", "sources", "site-map"]],
+            "items": [by_page_id[item_id] for item_id in ["boundaries", "sources", "licence", "site-map"]],
         },
     ]
     nav_order = [

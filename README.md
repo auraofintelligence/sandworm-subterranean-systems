@@ -32,3 +32,7 @@ python -m http.server 8080
 This is a proposal and exploration workbench. It does not claim approval from Traditional Owners, Elders, councils, governments, schools, businesses, sponsors, scientists, engineers, or community groups.
 
 The source documents are treated as raw concept material. Public claims should stay source-aware, consent-aware, and open to correction.
+
+## Licence and reuse
+
+See `LICENCE.md` for the local Sandworm licence. In short: people control their own generated Markdown, the public repo can be studied or forked for public-interest local versions with honest attribution, and Sandworm story materials, brand assets and claims cannot be repackaged or presented as endorsement.

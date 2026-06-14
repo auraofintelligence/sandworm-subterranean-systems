@@ -95,6 +95,7 @@
           <a href="${withBase("builders/index.html")}">Markdown builders</a>
           <a href="${withBase("boundaries.html")}">Boundaries</a>
           <a href="${withBase("sources.html")}">Source trail</a>
+          <a href="${withBase("licence.html")}">Licence</a>
           <a href="${withBase("site-map.html")}">Site map</a>
           <a href="https://auraofintelligence.github.io/civilisation-of-sand/" target="_blank" rel="noopener noreferrer">Civilisation of Sand</a>
         </div>
