@@ -126,7 +126,8 @@ a {
 h1,
 h2,
 h3,
-.nav-links a,
+.nav-link,
+.nav-group summary,
 .button,
 .section-label,
 .mini-label,
@@ -152,27 +153,79 @@ h3,
   align-items: center;
   display: flex;
   flex-wrap: nowrap;
-  gap: .18rem;
+  gap: .28rem;
   justify-content: flex-end;
 }
 
-.nav-links a {
+.nav-link,
+.nav-group summary {
+  align-items: center;
   border: 1px solid transparent;
   border-radius: var(--radius);
   color: var(--muted);
+  cursor: pointer;
+  display: inline-flex;
   font-size: .62rem;
   font-weight: 900;
+  min-height: 40px;
   padding: .46rem .38rem;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-.nav-links a:hover,
-.nav-links a:focus,
-.nav-links a[aria-current="page"] {
+.nav-link:hover,
+.nav-link:focus,
+.nav-link[aria-current="page"],
+.nav-group summary:hover,
+.nav-group summary:focus,
+.nav-group.is-current summary,
+.nav-group[open] summary {
   background: var(--soft);
   border-color: var(--line);
   color: var(--bay);
+}
+
+.nav-group {
+  position: relative;
+}
+
+.nav-group summary {
+  list-style: none;
+}
+
+.nav-group summary::-webkit-details-marker {
+  display: none;
+}
+
+.nav-group summary::after {
+  border: solid currentColor;
+  border-width: 0 2px 2px 0;
+  content: "";
+  height: .34rem;
+  margin-left: .45rem;
+  transform: translateY(-.12rem) rotate(45deg);
+  width: .34rem;
+}
+
+.nav-menu {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  display: grid;
+  gap: .12rem;
+  min-width: 240px;
+  padding: .45rem;
+  position: absolute;
+  right: 0;
+  top: calc(100% + .55rem);
+  z-index: 45;
+}
+
+.nav-menu .nav-link {
+  justify-content: flex-start;
+  padding: .66rem .75rem;
+  white-space: nowrap;
 }
 
 .nav-toggle {
@@ -726,11 +779,17 @@ textarea {
   }
 
   .nav-links {
+    align-items: stretch;
     background: var(--paper);
     border-bottom: 1px solid var(--line);
     box-shadow: var(--shadow);
     display: none;
+    gap: .35rem;
+    grid-template-columns: 1fr;
     inset: 76px 0 auto 0;
+    justify-content: stretch;
+    max-height: calc(100vh - 76px);
+    overflow: auto;
     padding: 1rem;
     position: fixed;
   }
@@ -739,8 +798,31 @@ textarea {
     display: grid;
   }
 
-  .nav-links a {
+  .nav-link,
+  .nav-group summary {
+    justify-content: space-between;
     padding: .85rem;
+    width: 100%;
+  }
+
+  .nav-group {
+    width: 100%;
+  }
+
+  .nav-menu {
+    background: transparent;
+    border: 0;
+    border-left: 3px solid var(--mist);
+    border-radius: 0;
+    box-shadow: none;
+    margin: .15rem 0 .45rem .75rem;
+    min-width: 0;
+    padding: .2rem 0 .2rem .55rem;
+    position: static;
+  }
+
+  .nav-menu .nav-link {
+    white-space: normal;
   }
 
   .card-grid,

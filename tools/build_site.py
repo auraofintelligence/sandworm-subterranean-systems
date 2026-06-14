@@ -914,10 +914,10 @@ BODY_RENDERERS = {
 def render_shell(page_id: str, title: str, description: str, body: str, path: str) -> str:
     base = "../" if "/" in path else ""
     canonical = BASE_URL + path
-    css = base + "assets/css/styles.css?v=20260614-sandworm-deeper"
+    css = base + "assets/css/styles.css?v=20260614-nav-groups"
     favicon = base + "assets/img/favicon.svg"
-    site_data = base + "assets/js/site-data.js?v=20260614-sandworm-deeper"
-    site_nav = base + "assets/js/site-nav.js?v=20260614-sandworm-deeper"
+    site_data = base + "assets/js/site-data.js?v=20260614-nav-groups"
+    site_nav = base + "assets/js/site-nav.js?v=20260614-nav-groups"
     image_path = hero_image(page_id)
     image = BASE_URL + image_path
     css_image = "../" + image_path.removeprefix("assets/")
@@ -997,12 +997,20 @@ def write_site_data() -> None:
         final_sequence.append(item)
         if item["id"] == "builders":
             final_sequence.extend(builder_sequence)
-    nav = [
-        {"id": page["id"], "label": page["label"], "href": page["href"]}
-        for page in PAGES
-        if page["id"] != "site-map"
+    nav = [{"id": page["id"], "label": page["label"], "href": page["href"]} for page in PAGES]
+    by_page_id = {item["id"]: item for item in nav}
+    primary_nav = [by_page_id[item_id] for item_id in ["home", "start", "makerspace", "builders"]]
+    nav_groups = [
+        {
+            "label": "Explore",
+            "items": [by_page_id[item_id] for item_id in ["digital-twin", "sandworm-lab", "civilisation", "wealth", "culture"]],
+        },
+        {
+            "label": "Sources",
+            "items": [by_page_id[item_id] for item_id in ["boundaries", "sources", "site-map"]],
+        },
     ]
-    payload = {"nav": nav, "sequence": final_sequence}
+    payload = {"nav": nav, "primaryNav": primary_nav, "navGroups": nav_groups, "sequence": final_sequence}
     write("assets/js/site-data.js", "window.SANDWORM_SITE = " + json.dumps(payload, indent=2) + ";\n")
 
 

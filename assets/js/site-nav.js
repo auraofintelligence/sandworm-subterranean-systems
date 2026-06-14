@@ -12,6 +12,22 @@
     const header = document.querySelector("[data-site-header]");
     if (!header) return;
 
+    const primaryNav = data.primaryNav || data.nav || [];
+    const navGroups = data.navGroups || [];
+    const navLink = (item, className = "nav-link") =>
+      `<a class="${className}" href="${withBase(item.href)}" ${item.id === page ? 'aria-current="page"' : ""}>${item.label}</a>`;
+    const groupMarkup = navGroups.map((group) => {
+      const hasCurrent = group.items.some((item) => item.id === page);
+      return `
+        <details class="nav-group ${hasCurrent ? "is-current" : ""}">
+          <summary>${group.label}</summary>
+          <div class="nav-menu">
+            ${group.items.map((item) => navLink(item)).join("")}
+          </div>
+        </details>
+      `;
+    }).join("");
+
     header.innerHTML = `
       <nav class="nav" aria-label="Main navigation">
         <a class="brand" href="${withBase("index.html")}" aria-label="Sandworm Subterranean Systems home">
@@ -20,7 +36,8 @@
         </a>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="siteNav">Menu</button>
         <div class="nav-links" id="siteNav">
-          ${data.nav.map((item) => `<a href="${withBase(item.href)}" ${item.id === page ? 'aria-current="page"' : ""}>${item.label}</a>`).join("")}
+          ${primaryNav.map((item) => navLink(item)).join("")}
+          ${groupMarkup}
         </div>
       </nav>
     `;
@@ -32,6 +49,15 @@
         toggle.setAttribute("aria-expanded", String(isOpen));
       });
     }
+
+    header.querySelectorAll(".nav-group").forEach((group) => {
+      group.addEventListener("toggle", () => {
+        if (!group.open) return;
+        header.querySelectorAll(".nav-group").forEach((other) => {
+          if (other !== group) other.open = false;
+        });
+      });
+    });
   }
 
   function renderSequenceNav() {
