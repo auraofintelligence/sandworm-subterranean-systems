@@ -1,6 +1,6 @@
 # Sandworm Subterranean Systems
 
-Sandworm Subterranean Systems is an exploratory, self-sovereign public website about starting with practical maker-space capability, then branching into Straddie digital twins, subterranean systems, Civilisation of Sand, film trails, and documentary builders.
+Sandworm Subterranean Systems is an exploratory, self-sovereign public website about why careful subterranean work might matter: safer road crossings for animals, transport tunnels, erosion control, useful sand spoil, geopolymer blocks, artificial reefs, quiet wave-energy questions, sand batteries, community wealth and film/documentary trails.
 
 The site is built as static HTML so it can run on GitHub Pages without a build service.
 
@@ -13,6 +13,7 @@ In simple terms:
 1. The Python file stores the page list, builder list, and source links.
 2. Running it writes the public `.html` pages.
 3. The builder pages let a visitor fill in a small form, preview Markdown, copy it, or download a `.md` file.
+4. Draft WebP hero images live in `assets/img/heroes/` and can be replaced later without changing the page structure.
 
 ## Local build
 

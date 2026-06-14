@@ -14,7 +14,7 @@ _Not answered yet._
 
 ### What layers belong in the twin?
 
-Prompt: Photos, point cloud, paths, public assets, maintenance notes, ecological observations, oral history, or workshop data.
+Prompt: Photos, point cloud, road paths, ferry movement, erosion, public assets, maintenance notes, reef sites, or workshop data.
 
 _Not answered yet._
 
@@ -26,7 +26,7 @@ _Not answered yet._
 
 ### What public benefit could the twin create?
 
-Prompt: Better maintenance, learning, access, safety, planning, story care, or open-data capability.
+Prompt: Better maintenance, access, animal safety, erosion planning, training, story care, or open-data capability.
 
 _Not answered yet._
 

@@ -1,39 +1,39 @@
-# Maker Space Brief Builder
+# Ferry Maker-Space Brief Builder
 
-Purpose: Turn a practical workshop idea into a small buildable brief.
+Purpose: Turn the Dunwich / Gumpi start into a small buildable workshop or open-data brief.
 
 Status: Draft for human review
 
 ## Questions
 
-### What could be made, repaired or tested?
+### What could be made, repaired, mapped or tested?
 
-Prompt: Keep it concrete enough for a first bench test.
+Prompt: Keep it concrete enough for a first bench test or public-data exercise.
+
+_Not answered yet._
+
+### Where does it touch the ferry gateway?
+
+Prompt: Terminal, bus turnaround, road corridor, public waiting area, open-data workflow, workshop bench, or model only.
 
 _Not answered yet._
 
 ### What tools or spaces might be needed?
 
-Prompt: Hand tools, CNC, 3D printing, solar sintering, mapping gear, benches, storage, or safety gear.
-
-_Not answered yet._
-
-### Who would need support to participate well?
-
-Prompt: First-timers, students, elders, technicians, artists, documentarians, local businesses, or volunteers.
+Prompt: Hand tools, cameras, 3D scanning, mapping gear, benches, storage, safety gear, sample moulds, or digital forms.
 
 _Not answered yet._
 
 ### What needs review before anyone treats it as real?
 
-Prompt: Safety, council rules, cultural authority, engineering, insurance, ecology, or funding.
+Prompt: Safety, traffic, council rules, cultural authority, engineering, insurance, ecology, or funding.
 
 _Not answered yet._
 
 ## Boundaries
 
-A maker-space brief should respect safety, training, tool access, local noise, waste handling and human pace.
+A ferry-gateway maker-space brief should respect public safety, traffic flow, cultural authority, tool training, noise, waste handling and daily transport reality.
 
 ## Next small step
 
-Choose one tool, one material, and one safety check to research next.
+Choose one bench test, one public-source layer and one safety review before expanding.

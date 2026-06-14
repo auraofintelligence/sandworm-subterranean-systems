@@ -9,8 +9,9 @@
   --bay: #0d5968;
   --teal: #008b91;
   --eucalypt: #4e856d;
-  --sand: #e2b75b;
-  --silica: #f3df9c;
+  --sand: #c48821;
+  --silica: #f4d78d;
+  --ochre: #805a08;
   --coral: #d66a50;
   --line: rgba(16, 32, 42, .16);
   --shadow: 0 24px 60px rgba(6, 36, 45, .16);
@@ -84,19 +85,19 @@ a {
 .nav {
   align-items: center;
   display: flex;
-  gap: 1rem;
+  gap: .7rem;
   justify-content: space-between;
   margin: 0 auto;
   max-width: var(--max);
   min-height: 76px;
-  padding: 0 1.25rem;
+  padding: 0 .9rem;
 }
 
 .brand {
   align-items: center;
   display: inline-flex;
   gap: .8rem;
-  min-width: 218px;
+  min-width: 205px;
   text-decoration: none;
 }
 
@@ -150,7 +151,7 @@ h3,
 .nav-links {
   align-items: center;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: .18rem;
   justify-content: flex-end;
 }
@@ -159,9 +160,9 @@ h3,
   border: 1px solid transparent;
   border-radius: var(--radius);
   color: var(--muted);
-  font-size: .68rem;
+  font-size: .62rem;
   font-weight: 900;
-  padding: .5rem .54rem;
+  padding: .46rem .38rem;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -190,7 +191,7 @@ h3,
 
 .hero {
   align-items: center;
-  background-image: linear-gradient(90deg, rgba(6, 36, 45, .92), rgba(6, 36, 45, .64) 44%, rgba(6, 36, 45, .14) 100%), url("../img/sandworm-subterranean-systems-hero.png");
+  background-image: linear-gradient(90deg, rgba(6, 36, 45, .96) 0%, rgba(6, 36, 45, .78) 37%, rgba(6, 36, 45, .30) 62%, rgba(6, 36, 45, 0) 100%), var(--page-hero-image);
   background-position: center;
   background-size: cover;
   border-bottom: 1px solid var(--line);
@@ -281,8 +282,8 @@ h3 {
 }
 
 .button.primary {
-  background: linear-gradient(135deg, var(--sand), var(--silica));
-  border-color: var(--silica);
+  background: linear-gradient(135deg, #dba43a, var(--silica));
+  border-color: #ffe5a1;
   color: #142321;
 }
 
@@ -306,8 +307,13 @@ h3 {
 }
 
 .page-hero {
-  background: linear-gradient(135deg, var(--deep), #0e5d63);
+  background-image: linear-gradient(90deg, rgba(6, 36, 45, .96), rgba(6, 36, 45, .72) 42%, rgba(6, 36, 45, .22) 68%, rgba(6, 36, 45, 0)), var(--page-hero-image);
+  background-position: center;
+  background-size: cover;
   color: var(--white);
+  min-height: min(560px, 62vh);
+  display: flex;
+  align-items: center;
 }
 
 .section-inner,
@@ -348,6 +354,11 @@ h3 {
   text-transform: uppercase;
 }
 
+.hero-label {
+  color: var(--silica);
+  margin-bottom: 1rem;
+}
+
 .soft-band {
   background: var(--soft);
   border-bottom: 1px solid var(--line);
@@ -359,9 +370,13 @@ h3 {
   color: var(--white);
 }
 
-.deep-band .section-label,
-.deep-band .mini-label {
+.deep-band .section-heading .section-label {
   color: var(--silica);
+}
+
+.deep-band .card .mini-label,
+.deep-band .repo-card .mini-label {
+  color: var(--ochre);
 }
 
 .deep-band .muted,
@@ -399,6 +414,7 @@ h3 {
 .question-card,
 .source-card,
 .builder-index a {
+  color: var(--ink);
   display: grid;
   gap: .75rem;
   padding: 1.25rem;
@@ -424,6 +440,15 @@ h3 {
 .source-card p,
 .builder-index p {
   color: var(--muted);
+}
+
+.card .mini-label,
+.trail-card .mini-label,
+.repo-card .mini-label,
+.question-card .mini-label,
+.source-card .mini-label,
+.builder-index .mini-label {
+  color: var(--ochre);
 }
 
 .text-link {

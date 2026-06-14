@@ -8,7 +8,7 @@ Status: Draft for human review
 
 ### Which doorway are you using?
 
-Prompt: Making, mapping, filming, documentary research, sources, material loops, or another doorway.
+Prompt: Ferry lab, maker space, wildlife tunnels, spoil loop, reefs, power, wealth, film, sources, or another doorway.
 
 _Not answered yet._
 

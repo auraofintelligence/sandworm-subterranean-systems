@@ -7,28 +7,33 @@ window.SANDWORM_SITE = {
     },
     {
       "id": "start",
-      "label": "Start",
+      "label": "Why dig?",
       "href": "start.html"
     },
     {
       "id": "makerspace",
-      "label": "Maker space",
+      "label": "Ferry lab",
       "href": "makerspace.html"
     },
     {
       "id": "digital-twin",
-      "label": "Digital twin",
+      "label": "Twin layer",
       "href": "digital-twin.html"
     },
     {
       "id": "sandworm-lab",
-      "label": "Sandworm lab",
+      "label": "Spoil loop",
       "href": "sandworm-lab.html"
     },
     {
       "id": "civilisation",
-      "label": "Civilisation",
+      "label": "Reefs + power",
       "href": "civilisation-of-sand.html"
+    },
+    {
+      "id": "wealth",
+      "label": "Wealth fund",
+      "href": "wealth-fund.html"
     },
     {
       "id": "culture",
@@ -59,28 +64,33 @@ window.SANDWORM_SITE = {
     },
     {
       "id": "start",
-      "label": "Start",
+      "label": "Why dig?",
       "href": "start.html"
     },
     {
       "id": "makerspace",
-      "label": "Maker space",
+      "label": "Ferry lab",
       "href": "makerspace.html"
     },
     {
       "id": "digital-twin",
-      "label": "Digital twin",
+      "label": "Twin layer",
       "href": "digital-twin.html"
     },
     {
       "id": "sandworm-lab",
-      "label": "Sandworm lab",
+      "label": "Spoil loop",
       "href": "sandworm-lab.html"
     },
     {
       "id": "civilisation",
-      "label": "Civilisation",
+      "label": "Reefs + power",
       "href": "civilisation-of-sand.html"
+    },
+    {
+      "id": "wealth",
+      "label": "Wealth fund",
+      "href": "wealth-fund.html"
     },
     {
       "id": "culture",
@@ -99,7 +109,7 @@ window.SANDWORM_SITE = {
     },
     {
       "id": "builder-maker-space-brief",
-      "label": "Maker Space Brief Builder",
+      "label": "Ferry Maker-Space Brief Builder",
       "href": "builders/maker-space-brief.html"
     },
     {
@@ -111,6 +121,21 @@ window.SANDWORM_SITE = {
       "id": "builder-sandworm-experiment",
       "label": "Sandworm Experiment Builder",
       "href": "builders/sandworm-experiment.html"
+    },
+    {
+      "id": "builder-spoil-loop-brief",
+      "label": "Spoil Loop Brief Builder",
+      "href": "builders/spoil-loop-brief.html"
+    },
+    {
+      "id": "builder-reef-energy-brief",
+      "label": "Reef, Bank And Quiet Power Builder",
+      "href": "builders/reef-energy-brief.html"
+    },
+    {
+      "id": "builder-wealth-stewardship-brief",
+      "label": "Wealth And C-Hour Stewardship Builder",
+      "href": "builders/wealth-stewardship-brief.html"
     },
     {
       "id": "builder-film-documentary-trail",

@@ -1,6 +1,6 @@
 # Film And Documentary Trail Builder
 
-Purpose: Carry a Sandworm idea into film, documentary or festival planning without taking over the story.
+Purpose: Carry a Sandworm idea into fiction, documentary or festival planning without taking over the story.
 
 Status: Draft for human review
 
