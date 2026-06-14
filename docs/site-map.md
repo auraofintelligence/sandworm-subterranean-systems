@@ -1,14 +1,14 @@
 # Sandworm Subterranean Systems Site Map
 
 ## Pages
-- [Sandworm Subterranean Systems](../index.html) - A self-sovereign public workbench for exploring why to dig carefully: maker-space starts, modern ferry-gateway data, wildlife-safe tunnels, useful sand spoil, artificial reefs, sand batteries, community wealth and film-ready story trails.
-- [Why Dig?](../start.html) - Start with the reasons: fewer animal deaths, safer movement, erosion control, useful spoil, reef habitat, power storage and community assets.
-- [Begin At Dunwich / Gumpi](../makerspace.html) - Use the ferry terminal upgrade as a practical civic lab for making, mapping, modern transport flow and first tunnel questions.
+- [Sandworm Subterranean Systems](../index.html) - A self-sovereign public workbench for exploring why to dig carefully: maker-space starts, modern ferry-gateway data, wildlife-safe tunnels, future tunnel spoil as a resource, artificial reefs, sand batteries, community wealth and film-ready story trails.
+- [Why Dig?](../start.html) - What reasons might make careful digging worth exploring: fewer animal deaths, safer movement, erosion care, future spoil as resource, reef habitat, power storage and community assets?
+- [Begin At Dunwich / Gumpi](../makerspace.html) - Could the ferry terminal upgrade become a practical civic lab for making, mapping, modern transport flow and first tunnel questions?
 - [Map The Place Before The Claim](../digital-twin.html) - A digital twin trail for road corridors, ferry movement, erosion edges, reef sites, permissions and public-source evidence.
-- [Make Spoil Useful](../sandworm-lab.html) - Treat sand spoil as a material stream for blocks, reef modules, dune stabilisation, tunnel lining tests and sand batteries.
+- [Make Spoil Useful](../sandworm-lab.html) - If tunnelling begins, treat sand spoil as a material stream for blocks, reef modules, dune stabilisation, tunnel lining tests and sand batteries.
 - [Reefs, Banks And Quiet Power](../civilisation-of-sand.html) - Explore reef geometry, surf-side banks, wave-pressure ideas, non-spinning anchors, sand batteries and ecological review gates.
 - [Sovereign Wealth And Community Hours](../wealth-fund.html) - Connect community-owned assets, energy revenue, transparent receipts, C-Hours and patient local reinvestment.
-- [Back The Fiction Or Documentary](../film-documentary-trail.html) - Use fiction, documentary and festival pathways to help people inspect the plan without being pushed into belief.
+- [Back The Fiction Or Documentary](../film-documentary-trail.html) - Could fiction, documentary and festival pathways help people inspect the plan without being pushed into belief?
 - [Markdown Builders](../builders/index.html) - Browser-only forms that turn questions, trails and project notes into clean Markdown drafts.
 - [Boundaries Keep The Work Human](../boundaries.html) - Consent, cultural authority, ecological safety, public claims, engineering review and data dignity for the Sandworm trail.
 - [Source Trail](../sources.html) - The documents and connected repositories that informed this first Sandworm public draft.

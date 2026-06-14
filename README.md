@@ -1,6 +1,6 @@
 # Sandworm Subterranean Systems
 
-Sandworm Subterranean Systems is an exploratory, self-sovereign public website about why careful subterranean work might matter: safer road crossings for animals, transport tunnels, erosion control, useful sand spoil, geopolymer blocks, artificial reefs, quiet wave-energy questions, sand batteries, community wealth and film/documentary trails.
+Sandworm Subterranean Systems is an exploratory, self-sovereign public website about why careful subterranean work might matter: safer road crossings for animals, transport tunnels, erosion control, future tunnel spoil as a resource, geopolymer blocks, artificial reefs, quiet wave-energy questions, sand batteries, community wealth and film/documentary trails.
 
 The site is built as static HTML so it can run on GitHub Pages without a build service.
 

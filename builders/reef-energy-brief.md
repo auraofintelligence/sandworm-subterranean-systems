@@ -26,7 +26,7 @@ _Not answered yet._
 
 ### What should the design avoid?
 
-Prompt: Noise, blades, wildlife strikes, sediment harm, cultural harm, navigation problems, visual clutter, or permanent lock-in.
+Prompt: Noise, animal-risk machinery, wildlife strikes, sediment harm, cultural harm, navigation problems, visual clutter, or permanent lock-in.
 
 _Not answered yet._
 
