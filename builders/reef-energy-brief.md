@@ -4,29 +4,31 @@ Purpose: Draft a reef or power idea that starts with ecology, surf, safety and r
 
 Status: Draft for human review
 
+Note: the thought-starters below are optional. They are not directions, approved answers or a test.
+
 ## Questions
 
 ### Which edge are you imagining?
 
-Prompt: Moreton Bay, Main Beach, surf-side reef, Amity erosion edge, terminal model, or concept only.
+Optional thought-starter: Name the edge you are thinking with, or keep it conceptual while the evidence catches up.
 
 _Not answered yet._
 
 ### What structure is being explored?
 
-Prompt: Artificial reef, surf bank, wave-pressure caisson, quiet anchor, seagrass lattice, oyster module, or monitoring frame.
+Optional thought-starter: What shape, habitat or quiet-power idea is only being sketched for now?
 
 _Not answered yet._
 
 ### What benefits should be tested together?
 
-Prompt: Habitat, water quality, dune stability, surf shape, wave energy, power storage, erosion control, or learning.
+Optional thought-starter: Which benefits might sit in tension, and which would need proof?
 
 _Not answered yet._
 
 ### What should the design avoid?
 
-Prompt: Noise, animal-risk machinery, wildlife strikes, sediment harm, cultural harm, navigation problems, visual clutter, or permanent lock-in.
+Optional thought-starter: What harms, disturbances or irreversible moves would make the idea unacceptable?
 
 _Not answered yet._
 
@@ -62,9 +64,9 @@ Prompt: Using this Markdown as context, create a lesson direction, workshop outl
 
 Prompt: Using this Markdown as context, list assumptions, missing sources, safety questions, cultural or ecological review needs, and the strongest counterarguments.
 
-## Public repo copy or local version
+## Public repo copy or own repo
 
-If a working site would help, copy or fork the public repo, rename the version honestly, keep attribution and licence notes visible, then adapt the pages and builders for the place, group or review question you are exploring.
+If a working site would help, copy or fork this public repo as a starting scaffold, name the new repo honestly, keep attribution and licence notes visible, then adapt the pages and builders for the visionary, engineering, community or review path you are exploring.
 
 Original repo: https://github.com/auraofintelligence/sandworm-subterranean-systems
 

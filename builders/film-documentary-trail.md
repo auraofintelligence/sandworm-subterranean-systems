@@ -4,29 +4,31 @@ Purpose: Carry a Sandworm idea into fiction, documentary or festival planning wi
 
 Status: Draft for human review
 
+Note: the thought-starters below are optional. They are not directions, approved answers or a test.
+
 ## Questions
 
 ### What story seed is present?
 
-Prompt: A person, place, question, material, experiment, source trail, workshop, or future scene.
+Optional thought-starter: What feels worth following, questioning or protecting as a story?
 
 _Not answered yet._
 
 ### Who might hold the story or need a say?
 
-Prompt: Do not assume public permission. Name review roles carefully.
+Optional thought-starter: Who might need to shape, refuse, correct or withhold the story?
 
 _Not answered yet._
 
 ### What assets or evidence might help?
 
-Prompt: Photos, audio, maps, public records, interviews, sketches, footage, documents, or workshop notes.
+Optional thought-starter: What evidence or creative material could help, and what should not be collected?
 
 _Not answered yet._
 
 ### What care should shape the story?
 
-Prompt: Privacy, culture, grief, humour, youth safety, permissions, ecological sensitivity, or uncertainty.
+Optional thought-starter: What care would keep the story from taking more than it gives?
 
 _Not answered yet._
 
@@ -62,9 +64,9 @@ Prompt: Using this Markdown as context, create a lesson direction, workshop outl
 
 Prompt: Using this Markdown as context, list assumptions, missing sources, safety questions, cultural or ecological review needs, and the strongest counterarguments.
 
-## Public repo copy or local version
+## Public repo copy or own repo
 
-If a working site would help, copy or fork the public repo, rename the version honestly, keep attribution and licence notes visible, then adapt the pages and builders for the place, group or review question you are exploring.
+If a working site would help, copy or fork this public repo as a starting scaffold, name the new repo honestly, keep attribution and licence notes visible, then adapt the pages and builders for the visionary, engineering, community or review path you are exploring.
 
 Original repo: https://github.com/auraofintelligence/sandworm-subterranean-systems
 

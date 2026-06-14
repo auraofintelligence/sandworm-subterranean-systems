@@ -21,7 +21,7 @@ You may view, clone, fork, study, adapt and improve the code for educational, co
 - Do not sell the infrastructure as a standalone product.
 - Do not repackage the Sandworm system, writings, images, brand assets or narrative materials for sale.
 - Keep clear attribution to Sandworm Subterranean Systems and Aura of Intelligence, including links back to the original project where practical.
-- Rename forks and local versions honestly so people can see what is original, what has changed and who carries the local responsibility.
+- Name forks and new repos honestly so people can see what is original, what has changed and who carries the new responsibility.
 - Do not imply endorsement, cultural permission, government support, engineering approval or community approval without written evidence.
 - If you improve the public infrastructure, consider sharing useful notes, fixes or lessons back to the public commons where reasonable.
 
@@ -33,17 +33,17 @@ You may not sell, mislabel, scrape, upload, redistribute, train commercial AI sy
 
 Discussion, critique, quotation within fair dealing, source-aware research, documentary planning and local public-interest review are welcome when provenance stays clear.
 
-## 4. Local Versions And Forks
+## 4. New Repos And Forks
 
-If a local copy or fork helps a group think, it should keep a visible trail:
+If a new repo, copy or fork helps a visionary, engineer, group or reviewer think, it should keep a visible trail:
 
 - Original source repo.
-- Local maintainer or group.
+- New maintainer or group.
 - What has changed.
 - What is draft, sourced, reviewed, disputed or still uncertain.
 - Which cultural, ecological, safety, engineering, legal or governance questions remain open.
 
-A fork is not a Sandworm endorsement. It is a local version carrying its own responsibility.
+A fork is not a Sandworm endorsement. It is a new repo or path carrying its own responsibility.
 
 ## 5. AI Use
 

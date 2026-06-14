@@ -4,29 +4,31 @@ Purpose: Map a place or system while keeping people, culture and data sovereign.
 
 Status: Draft for human review
 
+Note: the thought-starters below are optional. They are not directions, approved answers or a test.
+
 ## Questions
 
 ### What place, object or system is being mapped?
 
-Prompt: Name the real place if it is public-safe, or describe the concept level.
+Optional thought-starter: Use a public-safe name, a concept name, or keep it deliberately general.
 
 _Not answered yet._
 
 ### What layers belong in the twin?
 
-Prompt: Photos, point cloud, road paths, ferry movement, erosion, public assets, maintenance notes, reef sites, or workshop data.
+Optional thought-starter: Which layers would help people see the question more clearly, and which should stay out?
 
 _Not answered yet._
 
 ### Who has authority over the sensitive parts?
 
-Prompt: Name the people, groups or review roles without assuming consent.
+Optional thought-starter: Who might need to be asked, credited, protected, or left out for now?
 
 _Not answered yet._
 
 ### What public benefit could the twin create?
 
-Prompt: Better maintenance, access, animal safety, erosion planning, training, story care, or open-data capability.
+Optional thought-starter: What could become easier to understand, maintain, protect, repair or question?
 
 _Not answered yet._
 
@@ -62,9 +64,9 @@ Prompt: Using this Markdown as context, create a lesson direction, workshop outl
 
 Prompt: Using this Markdown as context, list assumptions, missing sources, safety questions, cultural or ecological review needs, and the strongest counterarguments.
 
-## Public repo copy or local version
+## Public repo copy or own repo
 
-If a working site would help, copy or fork the public repo, rename the version honestly, keep attribution and licence notes visible, then adapt the pages and builders for the place, group or review question you are exploring.
+If a working site would help, copy or fork this public repo as a starting scaffold, name the new repo honestly, keep attribution and licence notes visible, then adapt the pages and builders for the visionary, engineering, community or review path you are exploring.
 
 Original repo: https://github.com/auraofintelligence/sandworm-subterranean-systems
 

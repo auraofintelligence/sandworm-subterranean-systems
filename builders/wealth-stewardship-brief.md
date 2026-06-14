@@ -4,29 +4,31 @@ Purpose: Connect a Sandworm asset idea to transparent stewardship, receipts and 
 
 Status: Draft for human review
 
+Note: the thought-starters below are optional. They are not directions, approved answers or a test.
+
 ## Questions
 
 ### What asset or value stream is being imagined?
 
-Prompt: Energy, reef modules, repair work, local manufacturing, open-data tools, training, film, licensing, or public infrastructure.
+Optional thought-starter: What value might be created, and what would make that value public-good rather than hype?
 
 _Not answered yet._
 
 ### Who might steward it?
 
-Prompt: Community trust, co-op, public entity, cultural authority, local workers, technical reviewers, or not known yet.
+Optional thought-starter: Who could be trusted to steward it, or whose absence makes that unclear?
 
 _Not answered yet._
 
 ### What should be visible?
 
-Prompt: Money, hours, repairs, ecological work, mentoring, training, risk checks, public dashboards, or source notes.
+Optional thought-starter: What would people need to see to trust the claim without being surveilled?
 
 _Not answered yet._
 
 ### What should not become a score or product?
 
-Prompt: Private life, care without consent, cultural knowledge, unpaid pressure, token hype, speculation, or surveillance.
+Optional thought-starter: What should stay outside measurement, money, scoring or pressure?
 
 _Not answered yet._
 
@@ -62,9 +64,9 @@ Prompt: Using this Markdown as context, create a lesson direction, workshop outl
 
 Prompt: Using this Markdown as context, list assumptions, missing sources, safety questions, cultural or ecological review needs, and the strongest counterarguments.
 
-## Public repo copy or local version
+## Public repo copy or own repo
 
-If a working site would help, copy or fork the public repo, rename the version honestly, keep attribution and licence notes visible, then adapt the pages and builders for the place, group or review question you are exploring.
+If a working site would help, copy or fork this public repo as a starting scaffold, name the new repo honestly, keep attribution and licence notes visible, then adapt the pages and builders for the visionary, engineering, community or review path you are exploring.
 
 Original repo: https://github.com/auraofintelligence/sandworm-subterranean-systems
 

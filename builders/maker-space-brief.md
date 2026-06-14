@@ -4,29 +4,31 @@ Purpose: Turn the Dunwich / Gumpi start into a small buildable workshop or open-
 
 Status: Draft for human review
 
+Note: the thought-starters below are optional. They are not directions, approved answers or a test.
+
 ## Questions
 
 ### What could be made, repaired, mapped or tested?
 
-Prompt: Keep it concrete enough for a first bench test or public-data exercise.
+Optional thought-starter: What small practical thing would make this less abstract for you or your group?
 
 _Not answered yet._
 
 ### Where does it touch the ferry gateway?
 
-Prompt: Terminal, bus turnaround, road corridor, public waiting area, open-data workflow, workshop bench, or model only.
+Optional thought-starter: Name the part of the gateway it touches, or say it is only a model for now.
 
 _Not answered yet._
 
 ### What tools or spaces might be needed?
 
-Prompt: Hand tools, cameras, 3D scanning, mapping gear, benches, storage, safety gear, sample moulds, or digital forms.
+Optional thought-starter: What would make the idea easier to test, observe or explain without overbuilding it?
 
 _Not answered yet._
 
 ### What needs review before anyone treats it as real?
 
-Prompt: Safety, traffic, council rules, cultural authority, engineering, insurance, ecology, or funding.
+Optional thought-starter: Who or what would you want checked before the idea leaves the draft table?
 
 _Not answered yet._
 
@@ -62,9 +64,9 @@ Prompt: Using this Markdown as context, create a lesson direction, workshop outl
 
 Prompt: Using this Markdown as context, list assumptions, missing sources, safety questions, cultural or ecological review needs, and the strongest counterarguments.
 
-## Public repo copy or local version
+## Public repo copy or own repo
 
-If a working site would help, copy or fork the public repo, rename the version honestly, keep attribution and licence notes visible, then adapt the pages and builders for the place, group or review question you are exploring.
+If a working site would help, copy or fork this public repo as a starting scaffold, name the new repo honestly, keep attribution and licence notes visible, then adapt the pages and builders for the visionary, engineering, community or review path you are exploring.
 
 Original repo: https://github.com/auraofintelligence/sandworm-subterranean-systems
 

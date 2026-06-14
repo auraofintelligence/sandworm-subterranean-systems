@@ -4,29 +4,31 @@ Purpose: Turn a subterranean systems idea into a cautious prototype question.
 
 Status: Draft for human review
 
+Note: the thought-starters below are optional. They are not directions, approved answers or a test.
+
 ## Questions
 
 ### What is the experiment idea?
 
-Prompt: Wet sand stabilisation, tunnel model, autonomous transport corridor, silica block, material passport, sensor loop, or slurry simulation.
+Optional thought-starter: Describe the possibility in your own words, even if it is messy or incomplete.
 
 _Not answered yet._
 
 ### What is the smallest safe test?
 
-Prompt: A tabletop model, literature review, digital simulation, interview, material sample, or workshop exercise.
+Optional thought-starter: What is the least invasive way to learn something useful?
 
 _Not answered yet._
 
 ### What is unknown or risky?
 
-Prompt: Geology, water, ecology, law, culture, energy, cost, safety, waste, or evidence quality.
+Optional thought-starter: Which unknowns would make you pause, ask for help, or change direction?
 
 _Not answered yet._
 
 ### When should the idea stop or slow down?
 
-Prompt: Name a clear condition that means review comes before momentum.
+Optional thought-starter: What sign would tell you this idea needs to slow down, shrink or stop?
 
 _Not answered yet._
 
@@ -62,9 +64,9 @@ Prompt: Using this Markdown as context, create a lesson direction, workshop outl
 
 Prompt: Using this Markdown as context, list assumptions, missing sources, safety questions, cultural or ecological review needs, and the strongest counterarguments.
 
-## Public repo copy or local version
+## Public repo copy or own repo
 
-If a working site would help, copy or fork the public repo, rename the version honestly, keep attribution and licence notes visible, then adapt the pages and builders for the place, group or review question you are exploring.
+If a working site would help, copy or fork this public repo as a starting scaffold, name the new repo honestly, keep attribution and licence notes visible, then adapt the pages and builders for the visionary, engineering, community or review path you are exploring.
 
 Original repo: https://github.com/auraofintelligence/sandworm-subterranean-systems
 

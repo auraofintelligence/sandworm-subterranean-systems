@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SITE_TITLE = "Sandworm Subterranean Systems"
 BASE_URL = "https://auraofintelligence.github.io/sandworm-subterranean-systems/"
-ASSET_VERSION = "20260614-builder-ai-licence"
+ASSET_VERSION = "20260614-self-sovereign-hints"
 DESCRIPTION = (
     "A self-sovereign public workbench for exploring why to dig carefully: maker-space starts, "
     "modern ferry-gateway data, autonomous transport corridors, future tunnel spoil as a resource, artificial reefs, "
@@ -99,7 +99,7 @@ PAGES = [
         "label": "Licence",
         "href": "licence.html",
         "title": "Licence And Reuse",
-        "description": "How people can read, question, reuse, fork, adapt and generate Markdown from Sandworm while keeping provenance, safety and authority clear.",
+        "description": "How people can read, question, fork, create their own repo, adapt the builders and generate Markdown while keeping provenance, safety and authority clear.",
     },
     {
         "id": "site-map",
@@ -291,8 +291,8 @@ MARKDOWN_AI_GUIDE = {
     "href": "https://auraofintelligence.github.io/how-to-use-md-with-ai/",
 }
 REPO_COPY_GUIDE = {
-    "title": "Could this become a local version?",
-    "text": "If a working site would help, copy or fork the public repo, rename the version honestly, keep attribution and licence notes visible, then adapt the pages and builders for the place, group or review question you are exploring.",
+    "title": "Could your group build its own repo?",
+    "text": "If a working site would help, copy or fork this public repo as a starting scaffold, name the new repo honestly, keep attribution and licence notes visible, then adapt the pages and builders for the visionary, engineering, community or review path you are exploring.",
     "href": PUBLIC_REPO_URL,
     "action": "Open repo",
 }
@@ -307,9 +307,9 @@ BUILDERS = [
         "boundary": "The trail is an invitation, not a test. People can stay, leave, disagree, or take only the part that helps.",
         "next_step": "Name one small practical action that would make the idea easier to understand.",
         "fields": [
-            ("doorway", "Which doorway are you using?", "Ferry lab, maker space, autonomous transport corridors, spoil loop, reefs, power, wealth, film, sources, or another doorway."),
-            ("question", "What question are you carrying?", "Write it as a real question, not a conclusion."),
-            ("useful_output", "What would be useful to leave with?", "A note, map, source list, experiment card, film prompt, workshop plan, or handoff."),
+            ("doorway", "Which doorway are you using?", "Start where attention is strongest. Existing pages can be reference points, but they are not the only doors."),
+            ("question", "What question are you carrying?", "It can be a doubt, a curiosity, a concern, or a quiet 'what would need to be true?'"),
+            ("useful_output", "What would be useful to leave with?", "Name the kind of thing that would help you think, share or test next. Rough is welcome."),
         ],
     },
     {
@@ -320,10 +320,10 @@ BUILDERS = [
         "boundary": "A ferry-gateway maker-space brief should respect public safety, traffic flow, cultural authority, tool training, noise, waste handling and daily transport reality.",
         "next_step": "Choose one bench test, one public-source layer and one safety review before expanding.",
         "fields": [
-            ("project", "What could be made, repaired, mapped or tested?", "Keep it concrete enough for a first bench test or public-data exercise."),
-            ("place", "Where does it touch the ferry gateway?", "Terminal, bus turnaround, road corridor, public waiting area, open-data workflow, workshop bench, or model only."),
-            ("tools", "What tools or spaces might be needed?", "Hand tools, cameras, 3D scanning, mapping gear, benches, storage, safety gear, sample moulds, or digital forms."),
-            ("review", "What needs review before anyone treats it as real?", "Safety, traffic, council rules, cultural authority, engineering, insurance, ecology, or funding."),
+            ("project", "What could be made, repaired, mapped or tested?", "What small practical thing would make this less abstract for you or your group?"),
+            ("place", "Where does it touch the ferry gateway?", "Name the part of the gateway it touches, or say it is only a model for now."),
+            ("tools", "What tools or spaces might be needed?", "What would make the idea easier to test, observe or explain without overbuilding it?"),
+            ("review", "What needs review before anyone treats it as real?", "Who or what would you want checked before the idea leaves the draft table?"),
         ],
     },
     {
@@ -334,10 +334,10 @@ BUILDERS = [
         "boundary": "A digital twin should be a mirror and memory aid, not a control system or private-data trap.",
         "next_step": "Separate what is public-source, what needs permission, and what should stay private.",
         "fields": [
-            ("place", "What place, object or system is being mapped?", "Name the real place if it is public-safe, or describe the concept level."),
-            ("layers", "What layers belong in the twin?", "Photos, point cloud, road paths, ferry movement, erosion, public assets, maintenance notes, reef sites, or workshop data."),
-            ("permissions", "Who has authority over the sensitive parts?", "Name the people, groups or review roles without assuming consent."),
-            ("public_benefit", "What public benefit could the twin create?", "Better maintenance, access, animal safety, erosion planning, training, story care, or open-data capability."),
+            ("place", "What place, object or system is being mapped?", "Use a public-safe name, a concept name, or keep it deliberately general."),
+            ("layers", "What layers belong in the twin?", "Which layers would help people see the question more clearly, and which should stay out?"),
+            ("permissions", "Who has authority over the sensitive parts?", "Who might need to be asked, credited, protected, or left out for now?"),
+            ("public_benefit", "What public benefit could the twin create?", "What could become easier to understand, maintain, protect, repair or question?"),
         ],
     },
     {
@@ -348,10 +348,10 @@ BUILDERS = [
         "boundary": "Speculative engineering belongs behind review gates. Do not treat a concept card as permission to dig, test, mine or build.",
         "next_step": "Find the smallest harmless test that improves understanding without risking people, place or trust.",
         "fields": [
-            ("idea", "What is the experiment idea?", "Wet sand stabilisation, tunnel model, autonomous transport corridor, silica block, material passport, sensor loop, or slurry simulation."),
-            ("small_test", "What is the smallest safe test?", "A tabletop model, literature review, digital simulation, interview, material sample, or workshop exercise."),
-            ("unknowns", "What is unknown or risky?", "Geology, water, ecology, law, culture, energy, cost, safety, waste, or evidence quality."),
-            ("stop_rule", "When should the idea stop or slow down?", "Name a clear condition that means review comes before momentum."),
+            ("idea", "What is the experiment idea?", "Describe the possibility in your own words, even if it is messy or incomplete."),
+            ("small_test", "What is the smallest safe test?", "What is the least invasive way to learn something useful?"),
+            ("unknowns", "What is unknown or risky?", "Which unknowns would make you pause, ask for help, or change direction?"),
+            ("stop_rule", "When should the idea stop or slow down?", "What sign would tell you this idea needs to slow down, shrink or stop?"),
         ],
     },
     {
@@ -362,10 +362,10 @@ BUILDERS = [
         "boundary": "Spoil reuse needs material testing, contamination checks, ecology review, engineering review and a clear no-dumping rule.",
         "next_step": "Pick one material stream and one reviewer before proposing a public prototype.",
         "fields": [
-            ("spoil_source", "Where would the sand or spoil come from?", "Tunnel model, road work, terminal work, erosion response, existing stockpile, workshop sample, or concept only."),
-            ("use_path", "What might it become?", "Geopolymer block, oyster-crete module, reef unit, dune stabiliser, sand battery mass, tunnel lining, or test sample."),
-            ("problem", "Which existing problem does this help?", "Wildlife road hits, road damage, disconnected towns, after-hours access, erosion, transport pressure, material imports, habitat loss, storage, or community asset creation."),
-            ("review", "What has to be checked?", "Material safety, coastal process, marine life, cultural authority, engineering, maintenance, lifecycle, or legal permission."),
+            ("spoil_source", "Where would the sand or spoil come from?", "If material ever appears, where might it come from? If that is unknown, say so."),
+            ("use_path", "What might it become?", "What possible second life is worth testing, not assuming?"),
+            ("problem", "Which existing problem does this help?", "Which existing pressure would need to improve before this path earns attention?"),
+            ("review", "What has to be checked?", "What checks would you want before material is moved, used, named or celebrated?"),
         ],
     },
     {
@@ -376,10 +376,10 @@ BUILDERS = [
         "boundary": "This trail avoids bladed and noisy machinery. Any energy idea needs marine noise, animal safety, wave, sediment and cultural review before it becomes more than a sketch.",
         "next_step": "Name the habitat question, the energy question and the stop rule.",
         "fields": [
-            ("site", "Which edge are you imagining?", "Moreton Bay, Main Beach, surf-side reef, Amity erosion edge, terminal model, or concept only."),
-            ("structure", "What structure is being explored?", "Artificial reef, surf bank, wave-pressure caisson, quiet anchor, seagrass lattice, oyster module, or monitoring frame."),
-            ("benefit", "What benefits should be tested together?", "Habitat, water quality, dune stability, surf shape, wave energy, power storage, erosion control, or learning."),
-            ("avoid", "What should the design avoid?", "Noise, animal-risk machinery, wildlife strikes, sediment harm, cultural harm, navigation problems, visual clutter, or permanent lock-in."),
+            ("site", "Which edge are you imagining?", "Name the edge you are thinking with, or keep it conceptual while the evidence catches up."),
+            ("structure", "What structure is being explored?", "What shape, habitat or quiet-power idea is only being sketched for now?"),
+            ("benefit", "What benefits should be tested together?", "Which benefits might sit in tension, and which would need proof?"),
+            ("avoid", "What should the design avoid?", "What harms, disturbances or irreversible moves would make the idea unacceptable?"),
         ],
     },
     {
@@ -390,10 +390,10 @@ BUILDERS = [
         "boundary": "A C-Hour or fund note is not a launched financial product. It needs law, consent, anti-fraud checks, local legitimacy and human governance before real use.",
         "next_step": "Separate money revenue, public-good hours, receipts, trusteeship and public dashboards.",
         "fields": [
-            ("asset", "What asset or value stream is being imagined?", "Energy, reef modules, repair work, local manufacturing, open-data tools, training, film, licensing, or public infrastructure."),
-            ("holders", "Who might steward it?", "Community trust, co-op, public entity, cultural authority, local workers, technical reviewers, or not known yet."),
-            ("receipt", "What should be visible?", "Money, hours, repairs, ecological work, mentoring, training, risk checks, public dashboards, or source notes."),
-            ("limits", "What should not become a score or product?", "Private life, care without consent, cultural knowledge, unpaid pressure, token hype, speculation, or surveillance."),
+            ("asset", "What asset or value stream is being imagined?", "What value might be created, and what would make that value public-good rather than hype?"),
+            ("holders", "Who might steward it?", "Who could be trusted to steward it, or whose absence makes that unclear?"),
+            ("receipt", "What should be visible?", "What would people need to see to trust the claim without being surveilled?"),
+            ("limits", "What should not become a score or product?", "What should stay outside measurement, money, scoring or pressure?"),
         ],
     },
     {
@@ -404,10 +404,10 @@ BUILDERS = [
         "boundary": "The story stays with the people who carry it. AI and templates can help structure notes, but they do not own meaning.",
         "next_step": "Choose whether the next output is a story seed, source trail, interview map, storyboard or permissions list.",
         "fields": [
-            ("story_seed", "What story seed is present?", "A person, place, question, material, experiment, source trail, workshop, or future scene."),
-            ("holders", "Who might hold the story or need a say?", "Do not assume public permission. Name review roles carefully."),
-            ("assets", "What assets or evidence might help?", "Photos, audio, maps, public records, interviews, sketches, footage, documents, or workshop notes."),
-            ("care", "What care should shape the story?", "Privacy, culture, grief, humour, youth safety, permissions, ecological sensitivity, or uncertainty."),
+            ("story_seed", "What story seed is present?", "What feels worth following, questioning or protecting as a story?"),
+            ("holders", "Who might hold the story or need a say?", "Who might need to shape, refuse, correct or withhold the story?"),
+            ("assets", "What assets or evidence might help?", "What evidence or creative material could help, and what should not be collected?"),
+            ("care", "What care should shape the story?", "What care would keep the story from taking more than it gives?"),
         ],
     },
     {
@@ -418,10 +418,10 @@ BUILDERS = [
         "boundary": "A source trail is not a truth badge. It helps people see what is known, what is imagined and what needs checking.",
         "next_step": "Move one strong claim into a checkable question with a date, source type and reviewer.",
         "fields": [
-            ("claim", "What claim or idea is being tracked?", "Keep it narrow enough to check."),
-            ("source", "Where did it come from?", "Document, repo, public website, observation, interview, official record, model output, or brainstorm."),
-            ("confidence", "How confident should a public reader be?", "Concept only, needs checking, source-backed, community-reviewed, or not public yet."),
-            ("reviewer", "Who or what should review it?", "A person, community authority, engineer, scientist, council source, legal source, or public dataset."),
+            ("claim", "What claim or idea is being tracked?", "Write the claim as something that can still be corrected."),
+            ("source", "Where did it come from?", "Where did the idea enter the trail, and how close is that to public evidence?"),
+            ("confidence", "How confident should a public reader be?", "How should a reader hold it for now: loose, promising, contested, sourced or private?"),
+            ("reviewer", "Who or what should review it?", "Whose review would make the next public sentence more honest?"),
         ],
     },
     {
@@ -432,10 +432,10 @@ BUILDERS = [
         "boundary": "Boundaries are not obstacles to the work. They are how the work keeps trust.",
         "next_step": "Pick one boundary that needs a real conversation before publication or prototyping.",
         "fields": [
-            ("context", "What trail or idea is being checked?", "Name the page, project, source, experiment, place or story."),
-            ("boundaries", "Which boundaries matter here?", "Consent, private data, cultural authority, safety, ecological impact, law, funding, public claims, or youth protection."),
-            ("missing_voice", "Whose voice or authority is missing?", "Do not fill the gap by guessing. Name the gap."),
-            ("safe_public_version", "What is the safe public version for now?", "Draft, anonymised note, question, private only, source list, or nothing public yet."),
+            ("context", "What trail or idea is being checked?", "Name the trail, place, source or moment where a boundary is needed."),
+            ("boundaries", "Which boundaries matter here?", "Which limits would protect people, place, culture, ecology or trust?"),
+            ("missing_voice", "Whose voice or authority is missing?", "Who is not in the room, and what should wait until they are?"),
+            ("safe_public_version", "What is the safe public version for now?", "What can be said safely now, and what should stay draft or private?"),
         ],
     },
 ]
@@ -928,6 +928,7 @@ def builder_body(builder: dict) -> str:
   <div class="section-inner builder-layout">
     <div class="builder-panel">
       <p class="section-label">Draft form</p>
+      <p class="muted">The hints are optional thought-starters, not directions or approved answers. Bring your own framing, doubt, refusal or path.</p>
       <form class="builder-form" data-builder-form>
         {''.join(field_html)}
       </form>
@@ -956,12 +957,12 @@ def licence_body() -> str:
     <div class="section-heading">
       <p class="section-label">Public infrastructure</p>
       <h2>What reuse helps the work stay useful and honest?</h2>
-      <p class="lede">Sandworm is shared as a public-interest workbench. People can read it, question it, use the builders, make their own Markdown notes, fork the repo for learning or local adaptation, and keep the source trail visible.</p>
+      <p class="lede">Sandworm is shared as a public-interest workbench. People can read it, question it, use the builders, make their own Markdown notes, and fork or copy the repo as a scaffold for their own repo while keeping the source trail visible.</p>
     </div>
 """ + card_grid([
         {"label": "Builder output", "title": "Who owns a generated `.md`?", "text": "The person who writes the answers controls their downloaded Markdown. The site does not need to host it, approve it or claim it."},
         {"label": "Code", "title": "Could the public repo be copied?", "text": "Yes, for public-interest, educational, community, artistic, regenerative or review purposes, if attribution, licence notes and honest provenance stay visible."},
-        {"label": "Local version", "title": "What makes a fork honest?", "text": "A local version should rename itself clearly, avoid implying endorsement, keep links back to the original, and show what has changed."},
+        {"label": "Own repo", "title": "What makes a fork honest?", "text": "A new repo should name itself clearly, avoid implying endorsement, keep links back to the original, and show what has changed."},
         {"label": "Story material", "title": "What stays protected?", "text": "The Sandworm name, writings, images, narrative materials, brand assets and public story world are not offered as raw material to sell, mislabel or repackage."},
         {"label": "AI use", "title": "Can AI tools use the Markdown?", "text": "Yes, as context for drafts, letters, critique, lessons or expressions of interest, while keeping facts, sources, privacy, cultural authority and review status visible."},
         {"label": "Reality check", "title": "What is not granted?", "text": "No page, builder, fork or AI output is engineering approval, legal advice, cultural permission, environmental approval, financial advice or official endorsement."},
@@ -972,8 +973,8 @@ def licence_body() -> str:
   <div class="section-inner split">
     <div>
       <p class="section-label">Plain path</p>
-      <h2>Could someone make their own version without muddying the source?</h2>
-      <p class="lede">A respectful fork can be simple: copy the public repo, keep the original licence and source links, rename the project for the new place or group, change the pages and builders, then add notes showing what is draft, sourced, reviewed or still uncertain.</p>
+      <h2>Could someone build their own repo without muddying the source?</h2>
+      <p class="lede">A respectful fork can be simple: copy the public repo, keep the original licence and source links, name the new repo for the visionary, engineering, group or review path, change the pages and builders, then add notes showing what is draft, sourced, reviewed or still uncertain.</p>
     </div>
     <div class="quote-panel">Good reuse leaves a trail. People can see what came from Sandworm, what changed, and who now carries the local responsibility.</div>
   </div>
@@ -1115,11 +1116,13 @@ def builder_template(builder: dict) -> str:
         "",
         "Status: Draft for human review",
         "",
+        "Note: the thought-starters below are optional. They are not directions, approved answers or a test.",
+        "",
         "## Questions",
         "",
     ]
     for _name, label, hint in builder["fields"]:
-        lines.extend([f"### {label}", "", f"Prompt: {hint}", "", "_Not answered yet._", ""])
+        lines.extend([f"### {label}", "", f"Optional thought-starter: {hint}", "", "_Not answered yet._", ""])
     lines.extend(["## Boundaries", "", builder["boundary"], "", "## Next small step", "", builder["next_step"], ""])
     lines.extend([
         "## Ways to use this Markdown with AI",
@@ -1130,7 +1133,7 @@ def builder_template(builder: dict) -> str:
     for starter in AI_PROMPT_STARTERS:
         lines.extend([f"### {starter['title']}", "", f"Prompt: {starter['text']}", ""])
     lines.extend([
-        "## Public repo copy or local version",
+        "## Public repo copy or own repo",
         "",
         REPO_COPY_GUIDE["text"],
         "",

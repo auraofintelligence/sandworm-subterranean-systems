@@ -417,6 +417,10 @@ h3 {
   margin-bottom: 1rem;
 }
 
+.muted {
+  color: var(--muted);
+}
+
 .soft-band {
   background: var(--soft);
   border-bottom: 1px solid var(--line);

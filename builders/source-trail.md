@@ -4,29 +4,31 @@ Purpose: Separate concept fuel, public evidence, open questions and claims that 
 
 Status: Draft for human review
 
+Note: the thought-starters below are optional. They are not directions, approved answers or a test.
+
 ## Questions
 
 ### What claim or idea is being tracked?
 
-Prompt: Keep it narrow enough to check.
+Optional thought-starter: Write the claim as something that can still be corrected.
 
 _Not answered yet._
 
 ### Where did it come from?
 
-Prompt: Document, repo, public website, observation, interview, official record, model output, or brainstorm.
+Optional thought-starter: Where did the idea enter the trail, and how close is that to public evidence?
 
 _Not answered yet._
 
 ### How confident should a public reader be?
 
-Prompt: Concept only, needs checking, source-backed, community-reviewed, or not public yet.
+Optional thought-starter: How should a reader hold it for now: loose, promising, contested, sourced or private?
 
 _Not answered yet._
 
 ### Who or what should review it?
 
-Prompt: A person, community authority, engineer, scientist, council source, legal source, or public dataset.
+Optional thought-starter: Whose review would make the next public sentence more honest?
 
 _Not answered yet._
 
@@ -62,9 +64,9 @@ Prompt: Using this Markdown as context, create a lesson direction, workshop outl
 
 Prompt: Using this Markdown as context, list assumptions, missing sources, safety questions, cultural or ecological review needs, and the strongest counterarguments.
 
-## Public repo copy or local version
+## Public repo copy or own repo
 
-If a working site would help, copy or fork the public repo, rename the version honestly, keep attribution and licence notes visible, then adapt the pages and builders for the place, group or review question you are exploring.
+If a working site would help, copy or fork this public repo as a starting scaffold, name the new repo honestly, keep attribution and licence notes visible, then adapt the pages and builders for the visionary, engineering, community or review path you are exploring.
 
 Original repo: https://github.com/auraofintelligence/sandworm-subterranean-systems
 

@@ -90,7 +90,7 @@
     });
 
     if (definition.repo_copy) {
-      lines.push("## Public repo copy or local version");
+      lines.push("## Public repo copy or own repo");
       lines.push("");
       lines.push(definition.repo_copy.text);
       lines.push("");

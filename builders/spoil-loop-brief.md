@@ -4,29 +4,31 @@ Purpose: Track how sand spoil could become blocks, reef modules, dune support, t
 
 Status: Draft for human review
 
+Note: the thought-starters below are optional. They are not directions, approved answers or a test.
+
 ## Questions
 
 ### Where would the sand or spoil come from?
 
-Prompt: Tunnel model, road work, terminal work, erosion response, existing stockpile, workshop sample, or concept only.
+Optional thought-starter: If material ever appears, where might it come from? If that is unknown, say so.
 
 _Not answered yet._
 
 ### What might it become?
 
-Prompt: Geopolymer block, oyster-crete module, reef unit, dune stabiliser, sand battery mass, tunnel lining, or test sample.
+Optional thought-starter: What possible second life is worth testing, not assuming?
 
 _Not answered yet._
 
 ### Which existing problem does this help?
 
-Prompt: Wildlife road hits, road damage, disconnected towns, after-hours access, erosion, transport pressure, material imports, habitat loss, storage, or community asset creation.
+Optional thought-starter: Which existing pressure would need to improve before this path earns attention?
 
 _Not answered yet._
 
 ### What has to be checked?
 
-Prompt: Material safety, coastal process, marine life, cultural authority, engineering, maintenance, lifecycle, or legal permission.
+Optional thought-starter: What checks would you want before material is moved, used, named or celebrated?
 
 _Not answered yet._
 
@@ -62,9 +64,9 @@ Prompt: Using this Markdown as context, create a lesson direction, workshop outl
 
 Prompt: Using this Markdown as context, list assumptions, missing sources, safety questions, cultural or ecological review needs, and the strongest counterarguments.
 
-## Public repo copy or local version
+## Public repo copy or own repo
 
-If a working site would help, copy or fork the public repo, rename the version honestly, keep attribution and licence notes visible, then adapt the pages and builders for the place, group or review question you are exploring.
+If a working site would help, copy or fork this public repo as a starting scaffold, name the new repo honestly, keep attribution and licence notes visible, then adapt the pages and builders for the visionary, engineering, community or review path you are exploring.
 
 Original repo: https://github.com/auraofintelligence/sandworm-subterranean-systems
 

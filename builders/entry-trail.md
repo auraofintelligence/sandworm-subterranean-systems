@@ -4,23 +4,25 @@ Purpose: Choose a doorway into Sandworm without needing to accept the whole visi
 
 Status: Draft for human review
 
+Note: the thought-starters below are optional. They are not directions, approved answers or a test.
+
 ## Questions
 
 ### Which doorway are you using?
 
-Prompt: Ferry lab, maker space, autonomous transport corridors, spoil loop, reefs, power, wealth, film, sources, or another doorway.
+Optional thought-starter: Start where attention is strongest. Existing pages can be reference points, but they are not the only doors.
 
 _Not answered yet._
 
 ### What question are you carrying?
 
-Prompt: Write it as a real question, not a conclusion.
+Optional thought-starter: It can be a doubt, a curiosity, a concern, or a quiet 'what would need to be true?'
 
 _Not answered yet._
 
 ### What would be useful to leave with?
 
-Prompt: A note, map, source list, experiment card, film prompt, workshop plan, or handoff.
+Optional thought-starter: Name the kind of thing that would help you think, share or test next. Rough is welcome.
 
 _Not answered yet._
 
@@ -56,9 +58,9 @@ Prompt: Using this Markdown as context, create a lesson direction, workshop outl
 
 Prompt: Using this Markdown as context, list assumptions, missing sources, safety questions, cultural or ecological review needs, and the strongest counterarguments.
 
-## Public repo copy or local version
+## Public repo copy or own repo
 
-If a working site would help, copy or fork the public repo, rename the version honestly, keep attribution and licence notes visible, then adapt the pages and builders for the place, group or review question you are exploring.
+If a working site would help, copy or fork this public repo as a starting scaffold, name the new repo honestly, keep attribution and licence notes visible, then adapt the pages and builders for the visionary, engineering, community or review path you are exploring.
 
 Original repo: https://github.com/auraofintelligence/sandworm-subterranean-systems
 

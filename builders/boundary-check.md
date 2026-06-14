@@ -4,29 +4,31 @@ Purpose: Name consent, privacy, cultural, ecological, legal and safety limits be
 
 Status: Draft for human review
 
+Note: the thought-starters below are optional. They are not directions, approved answers or a test.
+
 ## Questions
 
 ### What trail or idea is being checked?
 
-Prompt: Name the page, project, source, experiment, place or story.
+Optional thought-starter: Name the trail, place, source or moment where a boundary is needed.
 
 _Not answered yet._
 
 ### Which boundaries matter here?
 
-Prompt: Consent, private data, cultural authority, safety, ecological impact, law, funding, public claims, or youth protection.
+Optional thought-starter: Which limits would protect people, place, culture, ecology or trust?
 
 _Not answered yet._
 
 ### Whose voice or authority is missing?
 
-Prompt: Do not fill the gap by guessing. Name the gap.
+Optional thought-starter: Who is not in the room, and what should wait until they are?
 
 _Not answered yet._
 
 ### What is the safe public version for now?
 
-Prompt: Draft, anonymised note, question, private only, source list, or nothing public yet.
+Optional thought-starter: What can be said safely now, and what should stay draft or private?
 
 _Not answered yet._
 
@@ -62,9 +64,9 @@ Prompt: Using this Markdown as context, create a lesson direction, workshop outl
 
 Prompt: Using this Markdown as context, list assumptions, missing sources, safety questions, cultural or ecological review needs, and the strongest counterarguments.
 
-## Public repo copy or local version
+## Public repo copy or own repo
 
-If a working site would help, copy or fork the public repo, rename the version honestly, keep attribution and licence notes visible, then adapt the pages and builders for the place, group or review question you are exploring.
+If a working site would help, copy or fork this public repo as a starting scaffold, name the new repo honestly, keep attribution and licence notes visible, then adapt the pages and builders for the visionary, engineering, community or review path you are exploring.
 
 Original repo: https://github.com/auraofintelligence/sandworm-subterranean-systems
 

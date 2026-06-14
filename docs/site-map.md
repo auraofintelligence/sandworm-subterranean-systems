@@ -12,7 +12,7 @@
 - [Markdown Builders](../builders/index.html) - Browser-only forms that turn questions, trails and project notes into clean Markdown drafts.
 - [Boundaries Keep The Work Human](../boundaries.html) - Consent, cultural authority, ecological safety, public claims, engineering review and data dignity for the Sandworm trail.
 - [Source Trail](../sources.html) - The documents and connected repositories that informed this first Sandworm public draft.
-- [Licence And Reuse](../licence.html) - How people can read, question, reuse, fork, adapt and generate Markdown from Sandworm while keeping provenance, safety and authority clear.
+- [Licence And Reuse](../licence.html) - How people can read, question, fork, create their own repo, adapt the builders and generate Markdown while keeping provenance, safety and authority clear.
 - [Site Map](../site-map.html) - All public pages, builder pages, Markdown templates and source bridges.
 
 ## Builders

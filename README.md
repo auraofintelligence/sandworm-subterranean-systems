@@ -35,4 +35,4 @@ The source documents are treated as raw concept material. Public claims should s
 
 ## Licence and reuse
 
-See `LICENCE.md` for the local Sandworm licence. In short: people control their own generated Markdown, the public repo can be studied or forked for public-interest local versions with honest attribution, and Sandworm story materials, brand assets and claims cannot be repackaged or presented as endorsement.
+See `LICENCE.md` for the local Sandworm licence. In short: people control their own generated Markdown, the public repo can be studied or forked as a scaffold for public-interest repos with honest attribution, and Sandworm story materials, brand assets and claims cannot be repackaged or presented as endorsement.
