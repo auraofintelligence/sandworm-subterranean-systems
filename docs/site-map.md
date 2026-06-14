@@ -3,7 +3,7 @@
 ## Pages
 - [Sandworm Subterranean Systems](../index.html) - A self-sovereign public workbench for exploring why to dig carefully: maker-space starts, modern ferry-gateway data, autonomous transport corridors, future tunnel spoil as a resource, artificial reefs, sand batteries, community wealth and film-ready story trails.
 - [Why Dig?](../start.html) - What reasons might make careful digging worth exploring: fewer road strikes, less road damage, 24/7 access, erosion care, future spoil as resource, reef habitat, power storage and community assets?
-- [Begin At Dunwich / Gumpi](../makerspace.html) - Could the ferry terminal upgrade become a practical civic lab for making, mapping, modern transport flow and first tunnel questions?
+- [Begin At Dunwich / Gumpi](../makerspace.html) - Could the $41M ferry terminal upgrade consultation, running 28 May to 21 June 2026, become a practical civic lab for making, mapping, modern transport flow and first tunnel questions?
 - [Map The Place Before The Claim](../digital-twin.html) - A digital twin trail for road corridors, ferry movement, erosion edges, reef sites, permissions and public-source evidence.
 - [Make Spoil Useful](../sandworm-lab.html) - If tunnelling begins, treat sand spoil as a material stream for blocks, reef modules, dune stabilisation, tunnel lining tests and sand batteries.
 - [Reefs, Banks And Quiet Power](../civilisation-of-sand.html) - Explore reef geometry, surf-side banks, wave-pressure ideas, non-spinning anchors, sand batteries and ecological review gates.
@@ -31,6 +31,7 @@
 - [Straddie Maker-Space Lab](https://auraofintelligence.github.io/straddie-makerspace-lab/) - [Straddie Maker-Space Lab repo](https://github.com/auraofintelligence/straddie-makerspace-lab)
 - [Straddie Digital Twin Builders](https://auraofintelligence.github.io/straddie-digital-twin-builders/) - [Straddie Digital Twin Builders repo](https://github.com/auraofintelligence/straddie-digital-twin-builders)
 - [P4A / Purple Party For Australia](https://auraofintelligence.github.io/p4a_xyz/) - [P4A / Purple Party For Australia repo](https://github.com/auraofintelligence/p4a_xyz)
+- [Stradbroke Grants Lab](https://auraofintelligence.github.io/stradbroke-grants-lab/) - [Stradbroke Grants Lab repo](https://github.com/auraofintelligence/stradbroke-grants-lab)
 - [Mineral Moonshots](https://auraofintelligence.github.io/mineral-moonshots/) - [Mineral Moonshots repo](https://github.com/auraofintelligence/mineral-moonshots)
 - [Civilisation of Sand](https://auraofintelligence.github.io/civilisation-of-sand/) - [Civilisation of Sand repo](https://github.com/auraofintelligence/civilisation-of-sand)
 - [Quandamooka Film Festival](https://auraofintelligence.github.io/quandamooka-film-festival/) - [Quandamooka Film Festival repo](https://github.com/auraofintelligence/quandamooka-film-festival)

@@ -35,7 +35,7 @@ PAGES = [
         "label": "Ferry lab",
         "href": "makerspace.html",
         "title": "Begin At Dunwich / Gumpi",
-        "description": "Could the ferry terminal upgrade become a practical civic lab for making, mapping, modern transport flow and first tunnel questions?",
+        "description": "Could the $41M ferry terminal upgrade consultation, running 28 May to 21 June 2026, become a practical civic lab for making, mapping, modern transport flow and first tunnel questions?",
     },
     {
         "id": "digital-twin",
@@ -124,7 +124,7 @@ COMPANION_LINKS = [
         "title": "Dunwich / Gumpi Ferry Terminal Open Data Lab",
         "site": "https://auraofintelligence.github.io/dunwich-gumpi-ferry-terminal-open-data-lab/",
         "repo": "https://github.com/auraofintelligence/dunwich-gumpi-ferry-terminal-open-data-lab",
-        "summary": "The grounded start node: official-source trail, 360-photo evidence, open-data workflows and simulation practice around the ferry gateway.",
+        "summary": "The grounded start node: $41M upgrade consultation, official-source trail, 360-photo evidence, open-data workflows and simulation practice around the ferry gateway.",
     },
     {
         "title": "Straddie Maker-Space Lab",
@@ -143,6 +143,12 @@ COMPANION_LINKS = [
         "site": "https://auraofintelligence.github.io/p4a_xyz/",
         "repo": "https://github.com/auraofintelligence/p4a_xyz",
         "summary": "The roots-up civic system where C-Hours, public ledgers, contribution receipts and grassroots governance are being tested.",
+    },
+    {
+        "title": "Stradbroke Grants Lab",
+        "site": "https://auraofintelligence.github.io/stradbroke-grants-lab/",
+        "repo": "https://github.com/auraofintelligence/stradbroke-grants-lab",
+        "summary": "The funding workbench for grant watchlists, windows, applicant profiles, grant-readiness Markdown, milestones and acquittal evidence.",
     },
     {
         "title": "Mineral Moonshots",
@@ -180,7 +186,7 @@ SOURCE_DOCS = [
     {
         "title": "Dunwich / Gumpi Ferry Terminal Open Data Lab",
         "file": "dunwich-gumpi-ferry-terminal-open-data-lab repo",
-        "use": "Provides the practical start: a modern ferry gateway, official-source trail, public photos, data ladder and simulation workflow.",
+        "use": "Provides the practical start: the $41M Junner Street ferry terminal upgrade consultation, official-source trail, public photos, data ladder and simulation workflow.",
     },
     {
         "title": "Wildlife Rescue Minjerribah Road-Hit Statistic",
@@ -191,6 +197,11 @@ SOURCE_DOCS = [
         "title": "P4A C-Hour And Civic Ledger Pattern",
         "file": "p4a_xyz LOCALISE_WITH_AN_AGENT.md and civic-ledger.html",
         "use": "Clarifies C-Hours as draft public-good receipts with consent, law, verification, anti-fraud checks and human governance.",
+    },
+    {
+        "title": "Stradbroke Grants Lab",
+        "file": "stradbroke-grants-lab repo",
+        "use": "Adds the practical funding layer: grant watchlists, grant windows, applicant and project matching, readiness checklists, milestone reports and acquittal evidence.",
     },
     {
         "title": "Mineral Moonshots",
@@ -472,8 +483,8 @@ def home_body() -> str:
   <div class="section-inner split">
     <div>
       <p class="section-label">Where to begin</p>
-      <h2>Start at the modern ferry gateway, not in a fantasy tunnel.</h2>
-      <p class="lede">Dunwich / Gumpi is a practical first node because ferries, buses, roads, visitors, freight, waiting areas and public infrastructure already meet there. A maker-space and data lab can help people inspect the transport system before the story grows teeth.</p>
+      <h2>Could the live ferry upgrade become the first reality check?</h2>
+      <p class="lede">The $41M Dunwich / Gumpi Ferry Terminal Upgrade concept-design consultation runs from 28 May to 21 June 2026, with a business case due in late 2026. What could a maker-space and data lab help people inspect: ferry flows, bus access, kiss-and-ride, pedestrian links, parking, foreshore repair, public photos, open-data files and future autonomous corridor questions?</p>
     </div>
     <div class="quote-panel">What can we map, test, repair, make or film now that would still be useful even if the largest Sandworm never gets built?</div>
   </div>
@@ -528,7 +539,7 @@ def makerspace_body() -> str:
     <div>
       <p class="section-label">Grounded start</p>
       <h2>What can a modern ferry gateway teach before anyone talks about tunnels?</h2>
-      <p class="lede">Dunwich / Gumpi is already a living transport system: vehicle ferries, passenger services, buses, turnarounds, freight, visitors and daily local movement. Could that make it a strong first place to model autonomous on-call corridors, public evidence, maker-space tools and tunnel questions?</p>
+      <p class="lede">Dunwich / Gumpi is already a living transport system: vehicle ferries, passenger services, buses, turnarounds, freight, visitors and daily local movement. With the $41M Junner Street ferry terminal upgrade in consultation from 28 May to 21 June 2026, could this become the first place to compare official concept design, local evidence, open-data asks, maker-space tools and future autonomous corridor questions?</p>
     </div>
     <div class="quote-panel">A good first lab helps people understand the place before it asks them to believe a plan.</div>
   </div>
@@ -537,11 +548,12 @@ def makerspace_body() -> str:
   <div class="section-inner">
     <div class="section-heading"><p class="section-label">First bench</p><h2>What could the maker-space actually do?</h2></div>
 """ + card_grid([
-        {"label": "Question", "title": "What evidence is already public?", "text": "Which official sources, public photos, 3D scans or plain notes could help people see the gateway clearly?"},
+        {"label": "Question", "title": "What is the $41M upgrade changing?", "text": "How do the official concept design, business case, terminal building, dual-berth pontoon, bus stops, kiss-and-ride, parking and foreshore plans change the first maker-space brief?"},
+        {"label": "Question", "title": "What evidence is already public?", "text": "Which TMR pages, Your Say consultation material, Gumpi Master Plan notes, public photos, 3D scans or plain observations help people see the gateway clearly?"},
         {"label": "Question", "title": "What samples are safe to test?", "text": "Which sand, shells, recycled glass, binders or block forms might be explored at bench scale before claims harden?"},
-        {"label": "Question", "title": "How does movement really work?", "text": "What do ferries, buses, freight, school runs, emergency paths, workers, visitors and possible autonomous tunnel links look like together?"},
-        {"label": "Question", "title": "Who wants tool confidence?", "text": "How might locals, students, makers and documentarians learn scanning, forms, safety and public-source work at their own pace?"},
-        {"label": "Question", "title": "What should be filmed first?", "text": "Which experiments, doubts and source trails would help non-technical people inspect the thinking?"},
+        {"label": "Question", "title": "How does movement really work?", "text": "What do vehicle ferries, passenger ferries, buses, freight, school runs, emergency paths, workers, visitors and possible autonomous tunnel links look like together?"},
+        {"label": "Question", "title": "Who wants tool confidence?", "text": "How might locals, students, makers and documentarians learn scanning, forms, safety and public-source work at their own pace while consultation is still live?"},
+        {"label": "Question", "title": "What would be useful to film first?", "text": "Which official source trails, transport gaps, local observations, doubts and first bench tests would help people inspect the thinking?"},
         {"label": "Question", "title": "Whose permission matters?", "text": "Which public infrastructure, cultural authority, engineering and safety questions need review before momentum?"},
     ]) + """
   </div>
@@ -550,7 +562,7 @@ def makerspace_body() -> str:
   <div class="section-inner">
     <div class="section-heading"><p class="section-label">Starting node</p><h2>Could the ferry lab be the practical front door?</h2></div>
 """ + card_grid([
-        {"label": "Public site", "title": "Dunwich / Gumpi Ferry Terminal Open Data Lab", "text": "Open the existing evidence, official trail, data ladder and simulation workflow.", "href": "https://auraofintelligence.github.io/dunwich-gumpi-ferry-terminal-open-data-lab/", "action": "Visit site"},
+        {"label": "Public site", "title": "Dunwich / Gumpi Ferry Terminal Open Data Lab", "text": "Open the existing $41M consultation trail, evidence map, data ladder and simulation workflow.", "href": "https://auraofintelligence.github.io/dunwich-gumpi-ferry-terminal-open-data-lab/", "action": "Visit site"},
         {"label": "Builder", "title": "Ferry Maker-Space Brief", "text": "Could one ferry-gateway idea become a small Markdown brief?", "href": "builders/maker-space-brief.html", "action": "Open builder"},
         {"label": "Boundary", "title": "Safety before momentum", "text": "Which public space, tool, road, material or claim needs a boundary check?", "href": "builders/boundary-check.html", "action": "Open check"},
     ]) + """
@@ -674,6 +686,7 @@ def wealth_body() -> str:
         {"label": "Question", "title": "Who reviews the reviewers?", "text": "What local legitimacy, law, privacy, anti-fraud checks and right-to-refuse rules would make stewardship credible?"},
         {"label": "Question", "title": "Where does sovereignty say no?", "text": "Which private life, culture or care details should never become rankings or public exposure?"},
         {"label": "Question", "title": "Could documentary show the trust work?", "text": "How could contribution, ownership and benefit be argued, tested and corrected on camera?"},
+        {"label": "Source bridge", "title": "Where does Stradbroke Grants Lab fit?", "text": "Could grant windows, applicant profiles, readiness checks, milestone reports and acquittal notes support small public trials before asset revenue exists?", "href": "https://auraofintelligence.github.io/stradbroke-grants-lab/", "action": "Open Grants Lab"},
     ]) + """
     <div class="callout">
       <div><h3>Draft a stewardship note.</h3><p>Separate revenue, contribution, receipts, trusteeship and public limits.</p></div>
