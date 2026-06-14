@@ -8,6 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SITE_TITLE = "Sandworm Subterranean Systems"
 BASE_URL = "https://auraofintelligence.github.io/sandworm-subterranean-systems/"
+ASSET_VERSION = "20260614-hero-left-fast-nav"
 DESCRIPTION = (
     "A self-sovereign public workbench for exploring why to dig carefully: maker-space starts, "
     "modern ferry-gateway data, autonomous transport corridors, future tunnel spoil as a resource, artificial reefs, "
@@ -28,7 +29,7 @@ PAGES = [
         "label": "Why dig?",
         "href": "start.html",
         "title": "Why Dig?",
-        "description": "What reasons might make careful digging worth exploring: fewer road strikes, less road damage, 24/7 access, erosion care, future spoil as resource, reef habitat, power storage and community assets?",
+        "description": "What reasons might make careful digging worth exploring: fewer road strikes, less road damage, parking relief, 24/7 access, erosion care, future spoil as resource, reef habitat, power storage and community assets?",
     },
     {
         "id": "makerspace",
@@ -453,7 +454,7 @@ def home_body() -> str:
     <div class="hero-copy">
       <p class="section-label hero-label">Exploratory public workbench</p>
       <h1>Sandworm Subterranean Systems</h1>
-      <p class="hero-lede">Could careful digging help solve existing problems above ground: wildlife road hits, road damage from heavy buses, trucks and rain, disconnected towns, after-hours transport gaps, erosion, energy storage and patient community assets, while treating any tunnel spoil it creates as a resource?</p>
+      <p class="hero-lede">Could careful digging help solve existing problems above ground: wildlife road hits, road damage from heavy buses, trucks and rain, disconnected towns, after-hours transport gaps, multi-decade parking pressure, erosion, energy storage and patient community assets, while treating any tunnel spoil it creates as a resource?</p>
       <div class="hero-actions">
         <a class="button primary" href="start.html">Follow the reasons</a>
         <a class="button secondary" href="builders/index.html">Open builders</a>
@@ -470,9 +471,9 @@ def home_body() -> str:
       <p class="lede">A tunnel project eventually asks where the spoil goes. Sandworm asks which local problems that material might help with if each step stays tested, reviewed and open to correction.</p>
     </div>
 """ + card_grid([
-        {"label": "Question", "title": "Could major transport arteries move below the fragile roads?", "text": "What if autonomous on-call vehicles ran 24/7/365 between towns, ferry gateways and service nodes, reducing pressure on surface roads and wildlife?"},
+        {"label": "Question", "title": "Could major transport arteries move below the fragile roads?", "text": "What if autonomous on-call vehicles ran 24/7/365 between towns, ferry gateways, park-and-ride nodes and service points, reducing pressure on surface roads and wildlife?"},
         {"label": "Question", "title": "What is erosion already asking?", "text": "If tunnelling creates spoil, could tested reef modules, dune support, oyster-crete or seagrass lattices help coastal care?"},
-        {"label": "Question", "title": "What does the transport data already say?", "text": "How do ferry arrivals, tourist buses, trucks, rain damage, road repairs, town separation and after-hours gaps change the argument?"},
+        {"label": "Question", "title": "What does the transport data already say?", "text": "How do ferry arrivals, tourist buses, trucks, rain damage, road repairs, parking shortages, town separation and after-hours gaps change the argument?"},
         {"label": "Question", "title": "Could local material become blocks?", "text": "Which sand, binders, shells, glass or waste streams might become blocks only after material testing and lifecycle review?"},
         {"label": "Question", "title": "Could quiet power store as heat?", "text": "Which reef-anchor or wave-pressure ideas might feed sand batteries without ignoring marine life, noise or reversibility?"},
         {"label": "Question", "title": "How could assets stay local?", "text": "Could energy, materials and learning support a patient wealth fund while C-Hours recognise verified public-good work?"},
@@ -484,7 +485,7 @@ def home_body() -> str:
     <div>
       <p class="section-label">Where to begin</p>
       <h2>Could the live ferry upgrade become the first reality check?</h2>
-      <p class="lede">The $41M Dunwich / Gumpi Ferry Terminal Upgrade concept-design consultation runs from 28 May to 21 June 2026, with a business case due in late 2026. What could a maker-space and data lab help people inspect: ferry flows, bus access, kiss-and-ride, pedestrian links, parking, foreshore repair, public photos, open-data files and future autonomous corridor questions?</p>
+      <p class="lede">The $41M Dunwich / Gumpi Ferry Terminal Upgrade concept-design consultation runs from 28 May to 21 June 2026, with a business case due in late 2026. What could a maker-space and data lab help people inspect: ferry flows, bus access, kiss-and-ride, pedestrian links, long-running parking pressure, foreshore repair, public photos, open-data files, park-and-ride questions and future autonomous corridor questions?</p>
     </div>
     <div class="quote-panel">What can we map, test, repair, make or film now that would still be useful even if the largest Sandworm never gets built?</div>
   </div>
@@ -519,6 +520,7 @@ def start_body() -> str:
         ("Could Gumpi model the first autonomous loop?", "The ferry gateway may be a useful maker-space and open-data start because the transport system is already visible there."),
         ("What are wildlife road hits telling us?", "If local rescue statistics are showing 250+ kangaroo and wallaby road hits in 2025, what transport redesign questions deserve daylight?"),
         ("What is heavy traffic doing to the roads?", "How do tourist buses, trucks, rain damage and constant repairs change the case for moving major arteries off the fragile surface?"),
+        ("Where do cars wait when the island is full?", "If parking has been tight for decades, could mainland shopper days, holiday peaks and resident access be modelled with park-and-ride nodes, autonomous shuttles or a tunnel-linked parking loop?"),
         ("Who is stranded when public transport sleeps?", "What happens to disconnected towns, older residents and workers when public transport is thin before 6am and after 8pm?"),
         ("If spoil appears, where could it go?", "What source, test, destination, risk check and possible second life would make a material stream trustworthy?"),
         ("How could the story stay honest?", "Could film and documentary invite support while still showing doubts, unknowns and reviewer voices?"),
@@ -539,7 +541,7 @@ def makerspace_body() -> str:
     <div>
       <p class="section-label">Grounded start</p>
       <h2>What can a modern ferry gateway teach before anyone talks about tunnels?</h2>
-      <p class="lede">Dunwich / Gumpi is already a living transport system: vehicle ferries, passenger services, buses, turnarounds, freight, visitors and daily local movement. With the $41M Junner Street ferry terminal upgrade in consultation from 28 May to 21 June 2026, could this become the first place to compare official concept design, local evidence, open-data asks, maker-space tools and future autonomous corridor questions?</p>
+      <p class="lede">Dunwich / Gumpi is already a living transport system: vehicle ferries, passenger services, buses, turnarounds, freight, visitors, parking pressure and daily local movement. With the $41M Junner Street ferry terminal upgrade in consultation from 28 May to 21 June 2026, could this become the first place to compare official concept design, local evidence, open-data asks, maker-space tools, park-and-ride options and future autonomous corridor questions?</p>
     </div>
     <div class="quote-panel">A good first lab helps people understand the place before it asks them to believe a plan.</div>
   </div>
@@ -551,7 +553,8 @@ def makerspace_body() -> str:
         {"label": "Question", "title": "What is the $41M upgrade changing?", "text": "How do the official concept design, business case, terminal building, dual-berth pontoon, bus stops, kiss-and-ride, parking and foreshore plans change the first maker-space brief?"},
         {"label": "Question", "title": "What evidence is already public?", "text": "Which TMR pages, Your Say consultation material, Gumpi Master Plan notes, public photos, 3D scans or plain observations help people see the gateway clearly?"},
         {"label": "Question", "title": "What samples are safe to test?", "text": "Which sand, shells, recycled glass, binders or block forms might be explored at bench scale before claims harden?"},
-        {"label": "Question", "title": "How does movement really work?", "text": "What do vehicle ferries, passenger ferries, buses, freight, school runs, emergency paths, workers, visitors and possible autonomous tunnel links look like together?"},
+        {"label": "Question", "title": "How does movement really work?", "text": "What do vehicle ferries, passenger ferries, buses, parking overflow, freight, school runs, emergency paths, workers, visitors and possible autonomous tunnel links look like together?"},
+        {"label": "Question", "title": "Could parking move to a smarter edge?", "text": "Where could holiday makers, residents doing mainland shopper days and service vehicles shift into park-and-ride or tunnel-linked shuttle loops without making daily life harder?"},
         {"label": "Question", "title": "Who wants tool confidence?", "text": "How might locals, students, makers and documentarians learn scanning, forms, safety and public-source work at their own pace while consultation is still live?"},
         {"label": "Question", "title": "What would be useful to film first?", "text": "Which official source trails, transport gaps, local observations, doubts and first bench tests would help people inspect the thinking?"},
         {"label": "Question", "title": "Whose permission matters?", "text": "Which public infrastructure, cultural authority, engineering and safety questions need review before momentum?"},
@@ -578,11 +581,11 @@ def digital_twin_body() -> str:
     <div class="section-heading">
       <p class="section-label">Mirror, not master</p>
       <h2>The twin helps people see patterns before anyone argues about construction.</h2>
-      <p class="lede">A useful Sandworm twin separates public-source layers, permissioned layers and private layers. It can map modern ferry flows, road corridors, animal crossings, erosion edges, reef ideas, material routes and emergency movement without turning people into data.</p>
+      <p class="lede">A useful Sandworm twin separates public-source layers, permissioned layers and private layers. It can map modern ferry flows, road corridors, parking pressure, park-and-ride options, animal crossings, erosion edges, reef ideas, material routes and emergency movement without turning people into data.</p>
     </div>
 """ + pathway([
         ("L0 private or bench", "A workshop sample, room, tool, material test or private note. The holder keeps control."),
-        ("L1 shared gateway", "The ferry terminal, bus turnaround, road edge, maker-space or public asset. Permissions and context matter."),
+        ("L1 shared gateway", "The ferry terminal, bus turnaround, parking edge, road corridor, maker-space or public asset. Permissions and context matter."),
         ("L2 bioregion", "The bay, surf side, dunes, roads, reefs and island systems. Public sources and cultural authority matter more."),
     ]) + """
   </div>
@@ -914,13 +917,14 @@ BODY_RENDERERS = {
 def render_shell(page_id: str, title: str, description: str, body: str, path: str) -> str:
     base = "../" if "/" in path else ""
     canonical = BASE_URL + path
-    css = base + "assets/css/styles.css?v=20260614-nav-groups"
+    css = base + f"assets/css/styles.css?v={ASSET_VERSION}"
     favicon = base + "assets/img/favicon.svg"
-    site_data = base + "assets/js/site-data.js?v=20260614-nav-groups"
-    site_nav = base + "assets/js/site-nav.js?v=20260614-nav-groups"
+    site_data = base + f"assets/js/site-data.js?v={ASSET_VERSION}"
+    site_nav = base + f"assets/js/site-nav.js?v={ASSET_VERSION}"
     image_path = hero_image(page_id)
+    preload_image = base + f"{image_path}?v={ASSET_VERSION}"
     image = BASE_URL + image_path
-    css_image = "../" + image_path.removeprefix("assets/")
+    css_image = "../" + image_path.removeprefix("assets/") + f"?v={ASSET_VERSION}"
     body_markup = body.strip()
     return f"""<!doctype html>
 <html lang="en-AU">
@@ -942,6 +946,7 @@ def render_shell(page_id: str, title: str, description: str, body: str, path: st
   <title>{e(title)} | {SITE_TITLE}</title>
   <link rel="canonical" href="{e(canonical)}">
   <link rel="icon" href="{favicon}" type="image/svg+xml">
+  <link rel="preload" as="image" href="{e(preload_image)}" type="image/webp" fetchpriority="high">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Nunito+Sans:wght@700;800;900&display=swap" rel="stylesheet">
@@ -1010,7 +1015,21 @@ def write_site_data() -> None:
             "items": [by_page_id[item_id] for item_id in ["boundaries", "sources", "site-map"]],
         },
     ]
-    payload = {"nav": nav, "primaryNav": primary_nav, "navGroups": nav_groups, "sequence": final_sequence}
+    nav_order = [
+        {"type": "link", "item": by_page_id["home"]},
+        {"type": "link", "item": by_page_id["start"]},
+        {"type": "link", "item": by_page_id["makerspace"]},
+        {"type": "group", **nav_groups[0]},
+        {"type": "link", "item": by_page_id["builders"]},
+        {"type": "group", **nav_groups[1]},
+    ]
+    payload = {
+        "nav": nav,
+        "primaryNav": primary_nav,
+        "navGroups": nav_groups,
+        "navOrder": nav_order,
+        "sequence": final_sequence,
+    }
     write("assets/js/site-data.js", "window.SANDWORM_SITE = " + json.dumps(payload, indent=2) + ";\n")
 
 

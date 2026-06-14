@@ -16,7 +16,13 @@
     const navGroups = data.navGroups || [];
     const navLink = (item, className = "nav-link") =>
       `<a class="${className}" href="${withBase(item.href)}" ${item.id === page ? 'aria-current="page"' : ""}>${item.label}</a>`;
-    const groupMarkup = navGroups.map((group) => {
+    const navEntries = data.navOrder || [
+      ...primaryNav.map((item) => ({ type: "link", item })),
+      ...navGroups.map((group) => ({ type: "group", ...group })),
+    ];
+    const navEntry = (entry) => {
+      if (entry.type !== "group") return navLink(entry.item || entry);
+      const group = entry;
       const hasCurrent = group.items.some((item) => item.id === page);
       return `
         <details class="nav-group ${hasCurrent ? "is-current" : ""}">
@@ -26,7 +32,7 @@
           </div>
         </details>
       `;
-    }).join("");
+    };
 
     header.innerHTML = `
       <nav class="nav" aria-label="Main navigation">
@@ -36,8 +42,7 @@
         </a>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="siteNav">Menu</button>
         <div class="nav-links" id="siteNav">
-          ${primaryNav.map((item) => navLink(item)).join("")}
-          ${groupMarkup}
+          ${navEntries.map((entry) => navEntry(entry)).join("")}
         </div>
       </nav>
     `;

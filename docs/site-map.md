@@ -2,7 +2,7 @@
 
 ## Pages
 - [Sandworm Subterranean Systems](../index.html) - A self-sovereign public workbench for exploring why to dig carefully: maker-space starts, modern ferry-gateway data, autonomous transport corridors, future tunnel spoil as a resource, artificial reefs, sand batteries, community wealth and film-ready story trails.
-- [Why Dig?](../start.html) - What reasons might make careful digging worth exploring: fewer road strikes, less road damage, 24/7 access, erosion care, future spoil as resource, reef habitat, power storage and community assets?
+- [Why Dig?](../start.html) - What reasons might make careful digging worth exploring: fewer road strikes, less road damage, parking relief, 24/7 access, erosion care, future spoil as resource, reef habitat, power storage and community assets?
 - [Begin At Dunwich / Gumpi](../makerspace.html) - Could the $41M ferry terminal upgrade consultation, running 28 May to 21 June 2026, become a practical civic lab for making, mapping, modern transport flow and first tunnel questions?
 - [Map The Place Before The Claim](../digital-twin.html) - A digital twin trail for road corridors, ferry movement, erosion edges, reef sites, permissions and public-source evidence.
 - [Make Spoil Useful](../sandworm-lab.html) - If tunnelling begins, treat sand spoil as a material stream for blocks, reef modules, dune stabilisation, tunnel lining tests and sand batteries.

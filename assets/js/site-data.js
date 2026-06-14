@@ -135,6 +135,92 @@ window.SANDWORM_SITE = {
       ]
     }
   ],
+  "navOrder": [
+    {
+      "type": "link",
+      "item": {
+        "id": "home",
+        "label": "Home",
+        "href": "index.html"
+      }
+    },
+    {
+      "type": "link",
+      "item": {
+        "id": "start",
+        "label": "Why dig?",
+        "href": "start.html"
+      }
+    },
+    {
+      "type": "link",
+      "item": {
+        "id": "makerspace",
+        "label": "Ferry lab",
+        "href": "makerspace.html"
+      }
+    },
+    {
+      "type": "group",
+      "label": "Explore",
+      "items": [
+        {
+          "id": "digital-twin",
+          "label": "Twin layer",
+          "href": "digital-twin.html"
+        },
+        {
+          "id": "sandworm-lab",
+          "label": "Spoil loop",
+          "href": "sandworm-lab.html"
+        },
+        {
+          "id": "civilisation",
+          "label": "Reefs + power",
+          "href": "civilisation-of-sand.html"
+        },
+        {
+          "id": "wealth",
+          "label": "Wealth fund",
+          "href": "wealth-fund.html"
+        },
+        {
+          "id": "culture",
+          "label": "Film trail",
+          "href": "film-documentary-trail.html"
+        }
+      ]
+    },
+    {
+      "type": "link",
+      "item": {
+        "id": "builders",
+        "label": "Builders",
+        "href": "builders/index.html"
+      }
+    },
+    {
+      "type": "group",
+      "label": "Sources",
+      "items": [
+        {
+          "id": "boundaries",
+          "label": "Boundaries",
+          "href": "boundaries.html"
+        },
+        {
+          "id": "sources",
+          "label": "Sources",
+          "href": "sources.html"
+        },
+        {
+          "id": "site-map",
+          "label": "Site map",
+          "href": "site-map.html"
+        }
+      ]
+    }
+  ],
   "sequence": [
     {
       "id": "home",
