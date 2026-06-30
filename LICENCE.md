@@ -1,64 +1,65 @@
-# The Sandworm Subterranean Systems Public Licence
+# Strange But True Public Source Licence
 
-Copyright (c) 2026 Aura of Intelligence / Luke Hayes. All rights reserved except as allowed below.
+Copyright (c) 2026 Luke Nathan Hayes / Strange But True / Aura of Intelligence.
+All rights reserved except as allowed below.
 
-This is a custom public-interest licence. It is not an open-source licence and it is not a public-domain release.
+This is a plain-language licence for sandworm-subterranean-systems.
 
-## 1. Your Builder Output
+This is not an open-source licence. It is a public source licence: people can read, learn from and use the work personally, but commercial and corporate rights stay with Luke Nathan Hayes.
 
-Markdown (`.md`) files generated from Sandworm builder forms belong to the person who writes the answers.
+## 1. What You Can Do
 
-Sandworm claims no ownership over those personal or local drafts. You may use your generated Markdown to ask questions, draft support letters, prepare expressions of interest, build lesson directions, make review notes, or explain why part of the plan should slow down or not proceed.
+You may view, share, clone, study, reference and adapt this repo for personal, educational, artistic, research, community or other non-commercial use.
 
-Please inspect your Markdown before sharing it with any AI tool or public forum. Remove private details, keep sources visible, and do not present an AI output as official approval, engineering advice, legal advice, cultural permission, environmental approval or financial advice.
+You may use a personal AI assistant to help read, explain or adapt the repo for those allowed non-commercial uses.
 
-## 2. The Website Code And Public Builders
+If you use or adapt the work, give clear credit:
 
-The website code, static page structure, templates and browser-based Markdown builders are shared for public-interest learning and adaptation.
+Based on sandworm-subterranean-systems by Luke Nathan Hayes / Strange But True / Aura of Intelligence.
+Original project: https://github.com/auraofintelligence/sandworm-subterranean-systems
+Used under the Strange But True Public Source Licence.
 
-You may view, clone, fork, study, adapt and improve the code for educational, community, artistic, documentary, regenerative, review or local planning purposes, under these boundaries:
+## 2. What You Cannot Do Without Permission
 
-- Do not sell the infrastructure as a standalone product.
-- Do not repackage the Sandworm system, writings, images, brand assets or narrative materials for sale.
-- Keep clear attribution to Sandworm Subterranean Systems and Aura of Intelligence, including links back to the original project where practical.
-- Name forks and new repos honestly so people can see what is original, what has changed and who carries the new responsibility.
-- Do not imply endorsement, cultural permission, government support, engineering approval or community approval without written evidence.
-- If you improve the public infrastructure, consider sharing useful notes, fixes or lessons back to the public commons where reasonable.
+You may not use this repo, its code, ideas, text, designs, workflows, data structures, assets, names or close derivatives for commercial, corporate, institutional, government, startup, agency, client or employer purposes without written permission from Luke Nathan Hayes.
 
-## 3. Creative Works And Story Materials
+That means you may not:
 
-Sandworm writings, images, concepts, story materials, brand assets and public narrative materials remain copyright Aura of Intelligence / Luke Hayes unless stated otherwise.
+- sell, monetise, repackage, licence, sponsor, advertise with or commercially distribute the work;
+- use it in paid products, SaaS tools, client work, consulting, courses, workshops, dashboards, templates or commercial infrastructure;
+- use it inside a company, agency, startup, institution, government body or funded commercial project;
+- use it for commercial AI training, datasets, embeddings, knowledge bases, agents, model products or evaluation systems;
+- remove attribution or present the work as your own;
+- use Strange But True, Aura of Intelligence, Luke Nathan Hayes, project names, screenshots, music, writing, images or brand material to imply endorsement, partnership or approval.
 
-You may not sell, mislabel, scrape, upload, redistribute, train commercial AI systems on, or present these creative works as your own.
+## 3. Commercial Rights
 
-Discussion, critique, quotation within fair dealing, source-aware research, documentary planning and local public-interest review are welcome when provenance stays clear.
+All commercial rights are reserved to Luke Nathan Hayes.
 
-## 4. New Repos And Forks
+Commercial use requires written permission from Luke Nathan Hayes. Permission can be granted, denied, limited, priced or handled under a separate agreement.
 
-If a new repo, copy or fork helps a visionary, engineer, group or reviewer think, it should keep a visible trail:
+## 4. Your Own Outputs
 
-- Original source repo.
-- New maintainer or group.
-- What has changed.
-- What is draft, sourced, reviewed, disputed or still uncertain.
-- Which cultural, ecological, safety, engineering, legal or governance questions remain open.
+If this repo lets you create your own notes, Markdown files, exports, maps, profiles, plans or other personal outputs, those outputs belong to you.
 
-A fork is not a Sandworm endorsement. It is a new repo or path carrying its own responsibility.
+You are responsible for what you put into the tool, what you export, and where you share it.
 
-## 5. AI Use
+## 5. Third-Party Material
 
-You may use public Sandworm pages and generated Markdown as context for AI-assisted drafts, including support letters, expressions of interest, workshop outlines, source trails, risk checks and reasons-against notes.
+This licence only covers original material created by Luke Nathan Hayes / Strange But True / Aura of Intelligence.
 
-AI outputs should stay labelled as drafts. They should not erase human authority, local consent, source limits, ecological review, cultural review or the right to disagree.
+Third-party libraries, fonts, APIs, platforms, services or embedded material keep their own licences.
 
-## 6. Ethos
+## 6. No Harmful Or Misleading Use
 
-Sandworm is a doorway for self-sovereign exploration of public infrastructure, local capability, ecological care, source-aware imagination and patient community assets.
+You may not use this repo or its material for deceptive, exploitative, aggressive, hateful, harassing, unsafe or harmful purposes.
 
-Please do not use this system for extractive, aggressive, deceptive, exploitative, surveillance-based or harmful purposes.
+You may not use it to mislead people about privacy, security, law, finance, health, public safety, governance, crypto, AI capability or current events.
 
-## 7. Reality
+## 7. No Warranty
 
-This project is offered sincerely as is. Sandworm Subterranean Systems and Aura of Intelligence make no warranties and accept no liability for how you choose to implement, adapt, fork, publish, test or rely on this material.
+This repo is provided as-is.
 
-Build carefully. Keep the questions visible. Look after the place and the people.
+Luke Nathan Hayes / Strange But True / Aura of Intelligence make no warranties and accept no liability for how you use, adapt, interpret, deploy or rely on this material.
+
+Public prototypes are not finished legal, medical, financial, privacy, security, public-safety, governance, crypto, AI-governance or production infrastructure unless Luke Nathan Hayes explicitly says so in writing.
