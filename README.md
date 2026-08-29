@@ -14,7 +14,7 @@ Each link below reflects an evidenced family, lineage or direct connection. This
 
 ### Aura Systems Image Atlas source projects
 
-- [aura-systems-image-atlas](https://github.com/auraofintelligence/aura-systems-image-atlas) - [public page](https://auraofintelligence.github.io/aura-systems-image-atlas/) - source project represented in this visual atlas, source project represented in visual atlas.
+- [aura-systems-image-atlas](https://github.com/auraofintelligence/aura-systems-image-atlas) - [public page](https://auraofintelligence.github.io/aura-systems-image-atlas/) - source project represented in this visual atlas.
 - [civilisation-of-sand](https://github.com/auraofintelligence/civilisation-of-sand) - [public page](https://auraofintelligence.github.io/civilisation-of-sand/) - explicit cross-reference, shared community programme.
 - [shared-table-initiative](https://github.com/auraofintelligence/shared-table-initiative) - [public page](https://auraofintelligence.github.io/shared-table-initiative/) - shared community programme.
 - [straddie-clean-energy-superpower](https://github.com/auraofintelligence/straddie-clean-energy-superpower) - [public page](https://auraofintelligence.github.io/straddie-clean-energy-superpower/) - explicit cross-reference, shared community programme.
