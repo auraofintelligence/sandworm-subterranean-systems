@@ -2,7 +2,7 @@
 
 New independent site prepared for Cloudflare, preserving the original GitHub Pages edition on main. Research snapshot 26 November 2026.
 
-15 substantive chapters, licence, cost and material scenario calculators, robotic aquaculture and off-world construction analogue research, original SVG diagrams and favicon, responsive navigation, footer chapter links, previous/next and return to top. No accounts, backend, telemetry or dependencies. This is not an approved engineering design.
+15 substantive chapters, licence, cost and material scenario calculators, robotic aquaculture and off-world construction analogue research, selected existing raster concept artwork and a PNG favicon, responsive navigation, footer chapter links, previous/next and return to top. No accounts, backend, telemetry or dependencies. This is not an approved engineering design.
 
 ## Deploy
 
@@ -15,3 +15,5 @@ See public/sources.html. Public primary and independent estimates are distinguis
 ## Licence
 
 Strange But True Public Source Licence, see LICENCE.md. Original work copyright 2026 Luke Nathan Hayes / Strange But True / Aura of Intelligence. Third-party references retain their rights.
+
+Engineering specifications have not yet been developed. Do not add schematic drawings or SVG assets to this edition.
