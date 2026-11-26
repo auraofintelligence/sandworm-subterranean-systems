@@ -2,7 +2,7 @@
 
 New independent site prepared for Cloudflare, preserving the original GitHub Pages edition on main. Research snapshot 26 November 2026.
 
-14 substantive chapters, licence, cost and material scenario calculators, original SVG diagrams and favicon, responsive navigation, footer chapter links, previous/next and return to top. No accounts, backend, telemetry or dependencies. This is not an approved engineering design.
+15 substantive chapters, licence, cost and material scenario calculators, robotic aquaculture and off-world construction analogue research, original SVG diagrams and favicon, responsive navigation, footer chapter links, previous/next and return to top. No accounts, backend, telemetry or dependencies. This is not an approved engineering design.
 
 ## Deploy
 
